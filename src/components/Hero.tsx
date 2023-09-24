@@ -7,6 +7,7 @@ import {
 	Image,
 	Heading,
 	Button,
+	Show,
 	Stack,
 	Text,
 } from '@chakra-ui/react';
@@ -22,22 +23,26 @@ export default function CallToActionWithAnnotation() {
 					spacing={{ base: 6, md: 10 }}
 					py={{ base: 14, md: 25 }}
 				>
-					<Flex padding='2em'>
-						<Image
-							w='25%'
-							src='./guitar.png'
-							fit='contain'
-							alt='Presented
+					<Flex w='full'>
+						<Show above='sm'>
+							<Flex w='25%'>
+								<Image
+									src='./guitar.png'
+									fit='contain'
+									alt='Presented
 							by Woodland Heights'
-							fallback={<Text>Presented By Woodland Heights</Text>}
-						/>
-						<Image
-							w='full'
-							fit='contain'
-							src='./header.png'
-							alt='Tiny Porch Concerts'
-							fallback={<Heading>Tiny Porch Concerts</Heading>}
-						/>
+									fallback={<Text>Presented By Woodland Heights</Text>}
+								/>
+							</Flex>
+						</Show>
+						<Flex flexGrow={1}>
+							<Image
+								fit='contain'
+								src='./header.png'
+								alt='Tiny Porch Concerts'
+								fallback={<Heading>Tiny Porch Concerts</Heading>}
+							/>
+						</Flex>
 					</Flex>
 					<Stack
 						direction={'column'}
