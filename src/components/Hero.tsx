@@ -68,7 +68,7 @@ export default function CallToActionWithAnnotation() {
 						>
               Learn more
 						</Button>
-						<Text fontSize='2xl' marginTop={'2em'}>Next concert date: <br/> September 24th, 2023</Text>
+						<Text fontSize='2xl' marginTop={'2em'}>Next concert date: <br/> October 29th, 2023</Text>
 
 					</Stack>
 				</Stack>
