@@ -24,6 +24,12 @@
       ],
       "@components/*": [
         "./src/components/*"
+      ],
+      "@sections": [
+        "./src/sections/index.ts"
+      ],
+      "@sections/*": [
+        "./src/sections/*"
       ]
     },
     "plugins": [
