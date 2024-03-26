@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import content from '../../content/home.md';
 
 function Main() {
