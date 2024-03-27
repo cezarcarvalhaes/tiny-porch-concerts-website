@@ -4,6 +4,9 @@ const nextConfig = {
 	swcMinify: true,
 	output: 'export',
 	trailingSlash: true,
+	images: {
+		unoptimized: true,
+	},
 	webpack: (configuration) => {
 		configuration.module.rules.push({
 			test: /\.md$/,
