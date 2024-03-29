@@ -30,7 +30,10 @@
       ],
       "@sections/*": [
         "./src/sections/*"
-      ]
+      ],
+      "@content/*" : [
+        "./content/*"
+      ],
     },
     "plugins": [
       {

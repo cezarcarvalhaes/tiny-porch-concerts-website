@@ -17,21 +17,20 @@ export default function Hero() {
 			<Heading
 				as='h1'
 				fontSize='7xl'
-				fontFamily='BobbyJones'
 			>
 				Tiny Porch
 			</Heading>
 			<Heading
 				as='h2'
 				fontSize='xl'
-				fontFamily='BobbyJonesSoftCondensed'
+				variant='secondary'
 			>
 				Neighborhood Concert Series
 			</Heading>
 			<Heading
 				as='h2'
 				fontSize='5xl'
-				fontFamily='BobbyJonesSoftCondensed'
+				variant='secondary'
 				color='#0c5b08'
 			>
 				Woodland Heights

@@ -6,6 +6,21 @@ import {
 	Link,
 } from '@chakra-ui/react';
 
+const Sections = [
+	{
+		href: '#about',
+		label: 'About',
+	},
+	{
+		href: '#dates',
+		label: '2024 Dates',
+	},
+	{
+		href: '#contact',
+		label: 'Contact',
+	},
+];
+
 function NavSections() {
 	return (
 		<Box>
@@ -28,24 +43,17 @@ function NavSections() {
 					direction='row'
 					spacing={16}
 				>
-					<Link
-						href="#about"
-						fontSize='2xl'
-					>
-					Who We Are
-					</Link>
-					<Link
-						href="#dates"
-						fontSize='2xl'
-					>
-					2024 Dates
-					</Link>
-					<Link
-						href="#contact"
-						fontSize='2xl'
-					>
-					Contact
-					</Link>
+					{Sections.map(({ label, href }) => (
+						<Link
+							key={href}
+							href={href}
+							fontSize='2xl'
+							fontFamily='BobbyJones, sans-serif'
+							color='brand.green'
+						>
+							{label}
+						</Link>
+					))}
 				</Stack>
 			</Center>
 		</Box>
