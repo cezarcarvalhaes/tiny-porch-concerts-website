@@ -1,7 +1,9 @@
 'use client';
 
 import Head from 'next/head';
-import Main from '@sections/Main';
+import Script from 'next/script';
+
+import About from '@sections/about';
 import Hero from '@sections/hero';
 
 type WindowWithNetlifyIdentity = Window & { netlifyIdentity?: any };
@@ -22,14 +24,14 @@ export default function Home() {
 	}
 	return (
 		<>
+			<Script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
 			<Head>
 				<title>Tiny Porch Concerts</title>
 				<meta name="description" content="Home page" />
-				<script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async></script>
 			</Head>
 			<main className="">
 				<Hero />
-				<Main />
+				<About />
 			</main>
 		</>
 	);

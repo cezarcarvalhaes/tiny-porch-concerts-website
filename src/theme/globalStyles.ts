@@ -15,8 +15,8 @@ const globalStyles = {
 		fontWeight: 500,
 		color: 'neutral.900',
 		lineHeight: 1.18,
-		'-webkit-text-fill-color': '#ffffff', /* Will override color (regardless of order) */
-		'-webkit-text-stroke': '1px #0E0F11',
+		WebkitTextFillColor: '#ffffff', /* Will override color (regardless of order) */
+		WebkitTextStroke: '1px #0E0F11',
 	},
 	h2: {
 		fontSize: '2.25rem',
