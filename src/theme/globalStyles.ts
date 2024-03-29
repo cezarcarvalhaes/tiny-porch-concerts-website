@@ -1,7 +1,7 @@
 const globalStyles = {
 	'html, body': {
 		fontSize: '16px',
-		fontFamily: 'BobbyJonesSoftCondensed, sans-serif',
+		fontFamily: 'Roboto, sans-serif',
 		fontWeight: 400,
 		color: 'neutral.800',
 		lineHeight: 1.5,

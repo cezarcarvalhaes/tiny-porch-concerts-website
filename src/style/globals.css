@@ -5,8 +5,12 @@
 @tailwind utilities;
 
 body {
-	font-family: 'BobbyJonesSoftCodensed', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
+}
+
+.markdown p {
+	margin-bottom: 1em;
 }
 
 .blob-container {
