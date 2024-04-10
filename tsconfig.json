@@ -31,6 +31,9 @@
       "@sections/*": [
         "./src/sections/*"
       ],
+      "@util/*": [
+        "./src/util/*"
+      ],
       "@content/*" : [
         "./content/*"
       ],

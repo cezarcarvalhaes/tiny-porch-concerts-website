@@ -5,10 +5,12 @@ import Script from 'next/script';
 
 import About from '@sections/about';
 import Hero from '@sections/hero';
+import Calendar from '@sections/calendar';
+import importMarkdownFiles, { MarkdownData } from '@util/importMarkdownFiles';
 
 type WindowWithNetlifyIdentity = Window & { netlifyIdentity?: any };
 
-export default function Home() {
+export default function Home({ dates }: { dates: MarkdownData[] }) {
 	if (typeof window !== 'undefined') {
 		const { netlifyIdentity } = window as WindowWithNetlifyIdentity;
 		// Redirect to admin page if user is logged in
@@ -32,7 +34,23 @@ export default function Home() {
 			<main className="">
 				<Hero />
 				<About />
+				<Calendar dates={dates}/>
 			</main>
 		</>
 	);
+}
+
+// This function gets called at build time on server-side.
+// It won't be called on client-side, so you can even do
+// direct database queries.
+export async function getStaticProps() {
+	const dates = await importMarkdownFiles('../../content/dates');
+
+	// By returning { props: { dates } }, the Page component
+	// will receive `dates` as a prop at build time
+	return {
+		props: {
+			dates,
+		},
+	};
 }

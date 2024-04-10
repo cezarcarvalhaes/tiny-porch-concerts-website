@@ -2,6 +2,8 @@ export const brand = {
 	green: '#0c5b08',
 	yellow: '#ffde59',
 	blue: '#68cae3',
+	lightblue: '#a3becc',
+	orange: '#ff914d',
 };
 
 export const primary = {

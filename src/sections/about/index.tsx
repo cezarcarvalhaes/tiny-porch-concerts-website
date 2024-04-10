@@ -29,7 +29,7 @@ function About() {
 					pr={{ base: 4, md: 8 }}
 				>
 					<Heading
-						size='2xl'
+						size='3xl'
 						textAlign='right'
 						mb={4}
 					>
