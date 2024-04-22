@@ -24,6 +24,9 @@ function MonthTabs({ dates }: { dates: MarkdownData[] }) {
 					alt,
 				}) => (
 					<TabPanel key={date}>
+						<Heading variant='secondary' textAlign='center' my={8}>
+							{new Date(date).toLocaleDateString('en-US', { timeZone: 'UTC' })}
+						</Heading>
 						<Flex
 							w='full'
 							justifyContent='center'
@@ -41,9 +44,6 @@ function MonthTabs({ dates }: { dates: MarkdownData[] }) {
 								/>
 							</Flex>
 						</Flex>
-						<Heading variant='secondary' textAlign='center' my={8}>
-							{new Date(date).toLocaleDateString('en-US', { timeZone: 'UTC' })}
-						</Heading>
 					</TabPanel>
 				))}
 			</TabPanels>

@@ -49,6 +49,7 @@ function GetInvolved() {
 							src='/guitar.png'
 							alt='Guitar'
 							className='my-auto'
+							style={{ rotate: '25deg' }}
 						/>
 					</Flex>
 				</Flex>
