@@ -1,8 +1,6 @@
 ---
 month: July 
-image: july-map.png
-image-alt: Tiny Porch July 2024 Map
-date: 2024-07-01
+date: 2024-07-21
 ---
 <!-- 
 Use the info above to add information generate the Calendar page of the website.

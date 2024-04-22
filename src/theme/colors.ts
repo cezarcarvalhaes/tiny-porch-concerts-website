@@ -1,5 +1,6 @@
 export const brand = {
 	green: '#0c5b08',
+	limegreen: '#7ed957',
 	yellow: '#ffde59',
 	blue: '#68cae3',
 	lightblue: '#a3becc',

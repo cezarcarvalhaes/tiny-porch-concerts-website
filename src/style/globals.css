@@ -13,6 +13,24 @@ body {
 	margin-bottom: 1em;
 }
 
+.markdown a {
+	transition-property: var(--chakra-transition-property-common);
+	transition-duration: var(--chakra-transition-duration-fast);
+	transition-timing-function: var(--chakra-transition-easing-ease-out);
+	cursor: pointer;
+	-webkit-text-decoration: none;
+	text-decoration: none;
+	outline: 2px solid transparent;
+	outline-offset: 2px;
+	font-size: var(--chakra-fontSizes-2xl);
+	font-family: BobbyJones,sans-serif;
+	color: var(--chakra-colors-brand-green);
+}
+
+.markdown a:hover {
+	text-decoration: underline;
+}
+
 .blob-container {
 	position: relative;
 	width: 100%;

@@ -1,6 +1,7 @@
 import {
 	Box,
 } from '@chakra-ui/react';
+import Footer from './components/footer';
 
 export default function RootLayout({
 	children,
@@ -8,6 +9,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
 	return (
-		<Box w="full">{children}</Box>
+		<Box w="full">
+			{children}
+			<Footer />
+		</Box>
 	);
 }
