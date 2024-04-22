@@ -16,8 +16,12 @@ const Sections = [
 		label: '2024 Dates',
 	},
 	{
-		href: '#contact',
-		label: 'Contact',
+		href: '#get-involved',
+		label: 'Get Involved',
+	},
+	{
+		href: '#merch',
+		label: 'Merch',
 	},
 ];
 

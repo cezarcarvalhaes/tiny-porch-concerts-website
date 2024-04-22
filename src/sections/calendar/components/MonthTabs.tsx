@@ -50,6 +50,7 @@ function MonthTabs({ dates }: { dates: MarkdownData[] }) {
 
 			<TabList
 				flexDirection='column'
+				border='none'
 			>
 				{info.map(({ date, month }) => (
 					<Tab

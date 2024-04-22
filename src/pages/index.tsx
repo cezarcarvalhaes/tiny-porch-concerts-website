@@ -6,6 +6,8 @@ import Script from 'next/script';
 import About from '@sections/about';
 import Hero from '@sections/hero';
 import Calendar from '@sections/calendar';
+import GetInvolved from '@sections/get-involved';
+import Merch from '@sections/merch';
 import importMarkdownFiles, { MarkdownData } from '@util/importMarkdownFiles';
 
 type WindowWithNetlifyIdentity = Window & { netlifyIdentity?: any };
@@ -35,6 +37,8 @@ export default function Home({ dates }: { dates: MarkdownData[] }) {
 				<Hero />
 				<About />
 				<Calendar dates={dates}/>
+				<Merch />
+				<GetInvolved />
 			</main>
 		</>
 	);
@@ -44,7 +48,7 @@ export default function Home({ dates }: { dates: MarkdownData[] }) {
 // It won't be called on client-side, so you can even do
 // direct database queries.
 export async function getStaticProps() {
-	const dates = await importMarkdownFiles('../../content/dates');
+	const dates = await importMarkdownFiles();
 
 	// By returning { props: { dates } }, the Page component
 	// will receive `dates` as a prop at build time

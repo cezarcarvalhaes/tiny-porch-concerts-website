@@ -9,6 +9,7 @@ function Calendar({ dates }: { dates: MarkdownData[] }) {
 	const currentYear = new Date().getFullYear();
 	return (
 		<Box
+			id='dates'
 			backgroundColor='brand.lightblue'
 			p={8}
 		>
