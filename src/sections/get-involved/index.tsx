@@ -14,7 +14,7 @@ function GetInvolved() {
 			id='get-involved'
 			backgroundColor='brand.orange'
 			py={16}
-			px={8}
+			px={{ base: 4, md: 8 }}
 		>
 			<Flex
 				w='full'

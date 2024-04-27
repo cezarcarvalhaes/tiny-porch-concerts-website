@@ -12,10 +12,11 @@ function Calendar({ dates }: { dates: MarkdownData[] }) {
 			id='dates'
 			backgroundColor='brand.lightblue'
 			py={16}
-			px={8}
+			px={{ base: 4, md: 8 }}
 		>
 			<Heading
 				size='3xl'
+				textAlign='center'
 			>
 				{currentYear} Calendar
 			</Heading>
