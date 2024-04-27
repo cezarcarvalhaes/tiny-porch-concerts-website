@@ -47,13 +47,11 @@ const NavMenu: React.FC<NavMenuProps> = ({ triggerElementRef }) => {
 
 	return (
 		<>
-			<Slide direction="left" in={showButton} style={{ zIndex: 10 }}>
+			<Slide direction="top" in={showButton} style={{ zIndex: 10 }}>
 				<Flex
-					backgroundColor='brand.blue'
+					backgroundColor='brand.mediumGreen'
 					w='full'
 					p={2}
-					position="fixed"
-					top={0}
 				>
 					<IconButton
 						aria-label="Navigation Menu"
