@@ -37,6 +37,9 @@
       "@content/*" : [
         "./content/*"
       ],
+      "@ui/*" : [
+        "./src/ui/*"
+      ],
     },
     "plugins": [
       {

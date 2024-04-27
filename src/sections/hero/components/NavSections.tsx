@@ -1,31 +1,27 @@
+import { useRef } from 'react';
 import Image from 'next/image';
 import {
 	Box,
 	Center,
 	Stack,
 	Link,
+	useBreakpointValue,
 } from '@chakra-ui/react';
 
-const Sections = [
-	{
-		href: '#about',
-		label: 'About',
-	},
-	{
-		href: '#dates',
-		label: '2024 Dates',
-	},
-	{
-		href: '#get-involved',
-		label: 'Get Involved',
-	},
-	{
-		href: '#merch',
-		label: 'Merch',
-	},
-];
+import NavMenu from '@ui/NavMenu';
+import { SECTIONS } from '@sections/dictionary';
 
 function NavSections() {
+	const triggerElementRef = useRef<HTMLDivElement>(null);
+	const imageSrc = useBreakpointValue(
+		{
+			base: './homes-mobile.png',
+			md: './homes.png',
+		},
+		{
+			fallback: 'md',
+		},
+	);
 	return (
 		<Box>
 			<div className="blob-container">
@@ -35,19 +31,25 @@ function NavSections() {
 				<div className="blob blob--bottom-left"></div>
 				<div className="blob blob--bottom-center"></div>
 				<div className="blob blob--bottom-right"></div>
-				<Image
-					src='./homes.png'
-					alt='Homes'
-					fill
-					unoptimized
-				/>
+				<Box w='full' height='19rem'>
+					<Image
+						src={imageSrc!}
+						alt='Homes'
+						fill
+						unoptimized
+					/>
+				</Box>
 			</div>
-			<Center mt={8}>
+			<Center
+				display={{ base: 'none', md: 'flex' }}
+				mt={8}
+				ref={triggerElementRef}
+			>
 				<Stack
 					direction='row'
 					spacing={16}
 				>
-					{Sections.map(({ label, href }) => (
+					{SECTIONS.map(({ label, href }) => (
 						<Link
 							key={href}
 							href={href}
@@ -60,6 +62,7 @@ function NavSections() {
 					))}
 				</Stack>
 			</Center>
+			<NavMenu triggerElementRef={triggerElementRef} />
 		</Box>
 	);
 }
