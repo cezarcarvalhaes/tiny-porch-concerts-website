@@ -106,16 +106,16 @@ body {
 		height: 55%;
 	}
 	.blob--bottom-right {
-		height: 50%;
+		height: 59%;
 		width: 45%;
 	}
 	.blob--bottom-center {
-		height: 35%;
+		height: 45%;
 		width: 55%;
 		left: 20%;
 	}
 	.blob--bottom-left {
-		height: 40%;
+		height: 45%;
 		width: 35%;
 	}
 }

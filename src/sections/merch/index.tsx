@@ -63,7 +63,7 @@ function Merch() {
 					alignItems='center'
 				>
 					<Flex
-						w={{ base: '50%', md: 'full' }}
+						w='full'
 						justifyContent='center'
 						p={4}
 					>
