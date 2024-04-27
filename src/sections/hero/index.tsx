@@ -12,7 +12,7 @@ export default function Hero() {
 	return (
 		<Box
 			backgroundColor='brand.yellow'
-			py={8}
+			py={16}
 		>
 			<Container maxW={'3xl'}>
 				<Header />
