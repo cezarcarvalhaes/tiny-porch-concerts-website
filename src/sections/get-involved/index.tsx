@@ -13,7 +13,8 @@ function GetInvolved() {
 		<Box
 			id='get-involved'
 			backgroundColor='brand.orange'
-			p={8}
+			py={16}
+			px={8}
 		>
 			<Flex
 				w='full'

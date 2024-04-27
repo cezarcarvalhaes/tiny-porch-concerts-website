@@ -17,6 +17,7 @@ export default function Hero() {
 			<Heading
 				as='h1'
 				fontSize='7xl'
+				mt={{ base: 4, md: 0 }}
 			>
 				Tiny Porch
 			</Heading>

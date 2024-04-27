@@ -11,7 +11,8 @@ function Calendar({ dates }: { dates: MarkdownData[] }) {
 		<Box
 			id='dates'
 			backgroundColor='brand.lightblue'
-			p={8}
+			py={16}
+			px={8}
 		>
 			<Heading
 				size='3xl'

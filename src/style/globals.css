@@ -89,6 +89,36 @@ body {
 	animation-name: moveBottomLeft;
 }
 
+@media (max-width: 767px) {
+	.blob {
+		width: 50%;
+		height: 55%;
+	}
+	.blob--top-right {
+		height: 45%;
+		right: 0;
+	}
+	.blob--top-center {
+		left: 25%;
+		width: 50%;
+	}
+	.blob--top-left {
+		height: 55%;
+	}
+	.blob--bottom-right {
+		height: 50%;
+		width: 45%;
+	}
+	.blob--bottom-center {
+		height: 35%;
+		width: 55%;
+		left: 20%;
+	}
+	.blob--bottom-left {
+		height: 40%;
+		width: 35%;
+	}
+}
 /* Animation */
 @keyframes moveTopRight {
 	from, to {

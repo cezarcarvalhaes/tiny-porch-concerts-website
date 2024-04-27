@@ -13,7 +13,7 @@ function About() {
 	return (
 		<Flex
 			id='about'
-			py={8}
+			py={16}
 			backgroundColor='brand.blue'
 			justifyContent='center'
 		>

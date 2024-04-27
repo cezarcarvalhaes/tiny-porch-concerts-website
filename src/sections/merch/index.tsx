@@ -19,7 +19,7 @@ function Merch() {
 	return (
 		<Flex
 			id='merch'
-			py={8}
+			py={16}
 			backgroundColor='brand.blue'
 			justifyContent='center'
 		>
