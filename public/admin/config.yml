@@ -13,10 +13,50 @@ collections:
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-      # - label: 'About'
-      #   name: 'about'
-      #   file: 'content/about.md'
-      #   fields:
-      #     - { label: 'Title', name: 'title', widget: 'string' }
-      #     - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      #     - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Get Involved'
+        name: 'get-involved'
+        file: 'content/pages/home/sections/get-involved.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Merch'
+        name: 'merch'
+        file: 'content/pages/home/sections/merch.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+  - label: "Tiny Porch Dates"
+    name: "tiny-porch-dates"
+    folder: "content/dates"
+    identifier_field: "month"
+    create: true
+    fields:
+      - {label: "Month", name: "month", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Food Vendor", name: "food_vendor", widget: "string"}
+      - {label: "Food Vendor Menu Url", name: "food_vendor_menu_url", widget: "string"}
+      - {label: "Food Vendor Location", name: "food_vendor_location", widget: "string"}
+
+      - {label: "Porch 1 Address", name: "porch_1_address", widget: "string"}
+      - {label: "Porch 1 Performer 1", name: "porch_1_performer_1", widget: "string"}
+      - {label: "Porch 1 Performer 1 Link", name: "porch_1_performer_1_link", widget: "string"}
+      - {label: "Porch 1 Performer 1 Start Time", name: "porch_1_performer_1_time", widget: "string"}
+      - {label: "Porch 1 Performer 2", name: "porch_1_performer_2", widget: "string"}
+      - {label: "Porch 1 Performer 2 Link", name: "porch_1_performer_2_link", widget: "string"}
+      - {label: "Porch 1 Performer 2 Start Time", name: "porch_1_performer_1_time", widget: "string"}
+
+      - {label: "Porch 2 Address", name: "porch_2_address", widget: "string"}
+      - {label: "Porch 2 Performer 1", name: "porch_2_performer_1", widget: "string"}
+      - {label: "Porch 2 Performer 1 Link", name: "porch_2_performer_1_link", widget: "string"}
+      - {label: "Porch 2 Performer 1 Start Time", name: "porch_2_performer_1_time", widget: "string"}
+      - {label: "Porch 2 Performer 2", name: "porch_2_performer_2", widget: "string"}
+      - {label: "Porch 2 Performer 2 Link", name: "porch_2_performer_2_link", widget: "string"}
+      - {label: "Porch 2 Performer 2 Start Time", name: "porch_2_performer_1_time", widget: "string"}
+
+      - {label: "Porch 2 Address", name: "porch_3_address", widget: "string"}
+      - {label: "Porch 2 Performer 1", name: "porch_3_performer_1", widget: "string"}
+      - {label: "Porch 2 Performer 1 Link", name: "porch_3_performer_1_link", widget: "string"}
+      - {label: "Porch 2 Performer 1 Start Time", name: "porch_3_performer_1_time", widget: "string"}
+      - {label: "Porch 2 Performer 2", name: "porch_3_performer_2", widget: "string"}
+      - {label: "Porch 2 Performer 2 Link", name: "porch_3_performer_2_link", widget: "string"}
+      - {label: "Porch 2 Performer 2 Start Time", name: "porch_3_performer_1_time", widget: "string"}
