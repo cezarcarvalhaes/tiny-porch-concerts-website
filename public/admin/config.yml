@@ -59,4 +59,4 @@ collections:
       - {label: "Porch 2 Performer 1 Start Time", name: "porch_3_performer_1_time", widget: "string"}
       - {label: "Porch 2 Performer 2", name: "porch_3_performer_2", widget: "string"}
       - {label: "Porch 2 Performer 2 Link", name: "porch_3_performer_2_link", widget: "string"}
-      - {label: "Porch 2 Performer 2 Start Time", name: "porch_3_performer_1_time", widget: "string"}
+      - {label: "Porch 2 Performer 2 Start Time", name: "porch_3_performer_2_time", widget: "string"}
