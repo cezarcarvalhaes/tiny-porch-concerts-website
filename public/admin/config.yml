@@ -43,7 +43,7 @@ collections:
       - {label: "Porch 1 Performer 1 Start Time", name: "porch_1_performer_1_time", widget: "string"}
       - {label: "Porch 1 Performer 2", name: "porch_1_performer_2", widget: "string"}
       - {label: "Porch 1 Performer 2 Link", name: "porch_1_performer_2_link", widget: "string"}
-      - {label: "Porch 1 Performer 2 Start Time", name: "porch_1_performer_1_time", widget: "string"}
+      - {label: "Porch 1 Performer 2 Start Time", name: "porch_1_performer_2_time", widget: "string"}
 
       - {label: "Porch 2 Address", name: "porch_2_address", widget: "string"}
       - {label: "Porch 2 Performer 1", name: "porch_2_performer_1", widget: "string"}
@@ -51,7 +51,7 @@ collections:
       - {label: "Porch 2 Performer 1 Start Time", name: "porch_2_performer_1_time", widget: "string"}
       - {label: "Porch 2 Performer 2", name: "porch_2_performer_2", widget: "string"}
       - {label: "Porch 2 Performer 2 Link", name: "porch_2_performer_2_link", widget: "string"}
-      - {label: "Porch 2 Performer 2 Start Time", name: "porch_2_performer_1_time", widget: "string"}
+      - {label: "Porch 2 Performer 2 Start Time", name: "porch_2_performer_2_time", widget: "string"}
 
       - {label: "Porch 2 Address", name: "porch_3_address", widget: "string"}
       - {label: "Porch 2 Performer 1", name: "porch_3_performer_1", widget: "string"}
