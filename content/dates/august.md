@@ -1,6 +1,6 @@
 ---
-month: August 
-date: 2024-08-21
+month: August
+date: 2024-08-21T17:00:00.000Z
 ---
 <!-- 
 Use the info above to add information generate the Calendar page of the website.
