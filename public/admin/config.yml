@@ -31,32 +31,32 @@ collections:
     identifier_field: "month"
     create: true
     fields:
-      - {label: "Month", name: "month", widget: "string", default: ""}
+      - {label: "Month", name: "month", widget: "string", required: false}
       - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Food Vendor", name: "food_vendor", widget: "string", default: ""}
-      - {label: "Food Vendor Menu Url", name: "food_vendor_menu_url", widget: "string", default: ""}
-      - {label: "Food Vendor Location", name: "food_vendor_location", widget: "string", default: ""}
+      - {label: "Food Vendor", name: "food_vendor", widget: "string", required: false}
+      - {label: "Food Vendor Menu Url", name: "food_vendor_menu_url", widget: "string", required: false}
+      - {label: "Food Vendor Location", name: "food_vendor_location", widget: "string", required: false}
 
-      - {label: "Porch 1 Address", name: "porch_1_address", widget: "string", default: ""}
-      - {label: "Porch 1 Performer 1", name: "porch_1_performer_1", widget: "string", default: ""}
-      - {label: "Porch 1 Performer 1 Link", name: "porch_1_performer_1_link", widget: "string", default: ""}
-      - {label: "Porch 1 Performer 1 Start Time", name: "porch_1_performer_1_time", widget: "string", default: ""}
-      - {label: "Porch 1 Performer 2", name: "porch_1_performer_2", widget: "string", default: ""}
-      - {label: "Porch 1 Performer 2 Link", name: "porch_1_performer_2_link", widget: "string", default: ""}
-      - {label: "Porch 1 Performer 2 Start Time", name: "porch_1_performer_2_time", widget: "string", default: ""}
+      - {label: "Porch 1 Address", name: "porch_1_address", widget: "string", required: false}
+      - {label: "Porch 1 Performer 1", name: "porch_1_performer_1", widget: "string", required: false}
+      - {label: "Porch 1 Performer 1 Link", name: "porch_1_performer_1_link", widget: "string", required: false}
+      - {label: "Porch 1 Performer 1 Start Time", name: "porch_1_performer_1_time", widget: "string", required: false}
+      - {label: "Porch 1 Performer 2", name: "porch_1_performer_2", widget: "string", required: false}
+      - {label: "Porch 1 Performer 2 Link", name: "porch_1_performer_2_link", widget: "string", required: false}
+      - {label: "Porch 1 Performer 2 Start Time", name: "porch_1_performer_2_time", widget: "string", required: false}
 
-      - {label: "Porch 2 Address", name: "porch_2_address", widget: "string", default: ""}
-      - {label: "Porch 2 Performer 1", name: "porch_2_performer_1", widget: "string", default: ""}
-      - {label: "Porch 2 Performer 1 Link", name: "porch_2_performer_1_link", widget: "string", default: ""}
-      - {label: "Porch 2 Performer 1 Start Time", name: "porch_2_performer_1_time", widget: "string", default: ""}
-      - {label: "Porch 2 Performer 2", name: "porch_2_performer_2", widget: "string", default: ""}
-      - {label: "Porch 2 Performer 2 Link", name: "porch_2_performer_2_link", widget: "string", default: ""}
-      - {label: "Porch 2 Performer 2 Start Time", name: "porch_2_performer_2_time", widget: "string", default: ""}
+      - {label: "Porch 2 Address", name: "porch_2_address", widget: "string", required: false}
+      - {label: "Porch 2 Performer 1", name: "porch_2_performer_1", widget: "string", required: false}
+      - {label: "Porch 2 Performer 1 Link", name: "porch_2_performer_1_link", widget: "string", required: false}
+      - {label: "Porch 2 Performer 1 Start Time", name: "porch_2_performer_1_time", widget: "string", required: false}
+      - {label: "Porch 2 Performer 2", name: "porch_2_performer_2", widget: "string", required: false}
+      - {label: "Porch 2 Performer 2 Link", name: "porch_2_performer_2_link", widget: "string", required: false}
+      - {label: "Porch 2 Performer 2 Start Time", name: "porch_2_performer_2_time", widget: "string", required: false}
 
-      - {label: "Porch 2 Address", name: "porch_3_address", widget: "string", default: ""}
-      - {label: "Porch 2 Performer 1", name: "porch_3_performer_1", widget: "string", default: ""}
-      - {label: "Porch 2 Performer 1 Link", name: "porch_3_performer_1_link", widget: "string", default: ""}
-      - {label: "Porch 2 Performer 1 Start Time", name: "porch_3_performer_1_time", widget: "string", default: ""}
-      - {label: "Porch 2 Performer 2", name: "porch_3_performer_2", widget: "string", default: ""}
-      - {label: "Porch 2 Performer 2 Link", name: "porch_3_performer_2_link", widget: "string", default: ""}
-      - {label: "Porch 2 Performer 2 Start Time", name: "porch_3_performer_2_time", widget: "string", default: ""}
+      - {label: "Porch 2 Address", name: "porch_3_address", widget: "string", required: false}
+      - {label: "Porch 2 Performer 1", name: "porch_3_performer_1", widget: "string", required: false}
+      - {label: "Porch 2 Performer 1 Link", name: "porch_3_performer_1_link", widget: "string", required: false}
+      - {label: "Porch 2 Performer 1 Start Time", name: "porch_3_performer_1_time", widget: "string", required: false}
+      - {label: "Porch 2 Performer 2", name: "porch_3_performer_2", widget: "string", required: false}
+      - {label: "Porch 2 Performer 2 Link", name: "porch_3_performer_2_link", widget: "string", required: false}
+      - {label: "Porch 2 Performer 2 Start Time", name: "porch_3_performer_2_time", widget: "string", required: false}
