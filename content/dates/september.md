@@ -8,11 +8,14 @@ porch_1_performer_2: "Heavy Shtetl "
 porch_1_performer_2_time: 5:00-5:50pm
 porch_2_address: "304 W 29th "
 porch_2_performer_1_time: "4:30-5:20pm "
-porch_2_performer_2: "The approach "
+porch_2_performer_2: "The Approach "
+porch_2_performer_2_link: https://youtube.com/@seancastleberrymusic7769?si=fTDGvtKpkmg_9ds-
 porch_2_performer_2_time: "5:30-6:20pm "
 porch_3_address: "3201 Forest Hill Ave "
 porch_3_performer_1: Jukebox Charlie
+porch_3_performer_1_link: https://www.instagram.com/reel/C0A7Q-tup-V/?igsh=MXA2MXgxN2Voa29lOA==
 porch_3_performer_1_time: "5:00-5:50pm "
 porch_3_performer_2: Greasy Bastards
+porch_3_performer_2_link: https://youtube.com/@greasybs
 porch_3_performer_2_time: "6:00-6:50pm "
 ---
