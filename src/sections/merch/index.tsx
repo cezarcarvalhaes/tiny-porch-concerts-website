@@ -5,6 +5,7 @@ import {
 	Heading,
 } from '@chakra-ui/react';
 
+import If from '@ui/If';
 import content from '@content/pages/home/sections/merch.md';
 
 function Merch() {
@@ -45,18 +46,19 @@ function Merch() {
 					<Box
 						textAlign='center'
 					>
-						<Button
-							as='a'
-							href={link}
-							target='_blank'
-							rel='noopener noreferrer'
-							color='brand.green'
-							size='lg'
-							fontFamily='BobbyJones, sans-serif'
-							isDisabled={disabled}
-						>
-            Order Now
-						</Button>
+						<If condition={!disabled}>
+							<Button
+								as='a'
+								href={link}
+								target='_blank'
+								rel='noopener noreferrer'
+								color='brand.green'
+								size='lg'
+								fontFamily='BobbyJones, sans-serif'
+							>
+								Order Now
+							</Button>
+						</If>
 					</Box>
 				</Flex>
 				<Flex
