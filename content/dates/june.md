@@ -4,8 +4,7 @@ date: 2024-06-16
 food_vendor: King of Pops + Arroz
 porch_1_address: 2708 Hillcrest
 porch_1_performer_1: Velvet Schmelvet
-porch_1_performer_1_link: "https://www.facebook.com/profile.php?id=100086186450\
-  306 Instagram:  velvet_schmelvet_rva"
+porch_1_performer_1_link: https://www.facebook.com/profile.php?id=100086186450306
 porch_1_performer_1_time: "5:00pm-5:50pm "
 porch_1_performer_2: Gene and Gayla and the Fireflies
 porch_1_performer_2_link: "www.geneandgaylamills.com "
@@ -18,7 +17,7 @@ porch_2_performer_2: Blue Orpheus Orchestra
 porch_2_performer_2_link: https://m.youtube.com/playlist?list=PLt9TE2raLtFQD8RP9FiAKugEKArV9YSEh
 porch_3_address: 2821 New Kent
 porch_3_performer_1: Soundwave Supply Co
-porch_3_performer_1_link: "@SoundwaveSupplyCo"
+porch_3_performer_1_link: https://www.instagram.com/soundwavesupplyco/
 porch_3_performer_2: Crossroads Sunday Jam Players
 porch_3_performer_2_link: https://www.youtube.com/watch?v=DCyC_4sKotY
 porch_3_time_1: 6:00pm
