@@ -4,18 +4,23 @@ date: 2024-07-21T17:00:00.000Z
 food_vendor: 1115 Mobile Kitchen + King of Pops
 porch_1_address: "612 W 26th "
 porch_1_performer_1: Michael Hawkins
+porch_1_performer_1_link: https://youtu.be/iAp5TVyYdec?si=qGli-dPsL1SUrLsN
 porch_1_performer_1_time: 5:00-5:50pm
 porch_1_performer_2: Nothing Rhymes With Orange
 porch_1_performer_2_time: "6:00-6:50pm "
 porch_2_address: "400 W 24th "
 porch_2_performer_1: Brothers King
+porch_2_performer_1_link: www.brothersking.com
 porch_2_performer_1_time: "5:30-6:20pm "
 porch_2_performer_2: Tall Joshua
+porch_2_performer_2_link: https://www.instagram.com/thetalljoshua/
 porch_2_performer_2_time: "6:30-7:20pm "
 porch_3_address: 406 W 25th
 porch_3_performer_1: Elle Christine
+porch_3_performer_1_link: https://ellechristine.bandcamp.com/music
 porch_3_performer_1_time: "6:00-6:50pm "
 porch_3_performer_2: " Brookhouse"
+porch_3_performer_2_link: https://www.instagram.com/brookhouse.music/
 porch_3_performer_2_time: "7:00-7:50pm "
 ---
 <!-- 
