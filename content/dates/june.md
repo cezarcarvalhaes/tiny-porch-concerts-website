@@ -7,7 +7,7 @@ porch_1_performer_1: Velvet Schmelvet
 porch_1_performer_1_link: https://www.facebook.com/profile.php?id=100086186450306
 porch_1_performer_1_time: "5:00pm-5:50pm "
 porch_1_performer_2: Gene and Gayla and the Fireflies
-porch_1_performer_2_link: "www.geneandgaylamills.com "
+porch_1_performer_2_link: https://geneandgaylamills.com/
 porch_1_performer_2_time: 6:00-6:50pm
 porch_2_address: 703 W 28th
 porch_2_performer_1: Burke Ingraffia
