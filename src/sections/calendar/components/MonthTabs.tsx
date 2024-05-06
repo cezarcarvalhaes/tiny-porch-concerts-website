@@ -11,6 +11,16 @@ import {
 import { MarkdownData } from '@util/importMarkdownFiles';
 import PorchInfo from './PorchInfo';
 
+const dateOptions: Intl.DateTimeFormatOptions = {
+	weekday: 'long',
+	year: 'numeric',
+	month: 'long',
+	day: 'numeric',
+	timeZone: 'UTC',
+};
+
+const formatDate = (date: string) => new Date(date).toLocaleDateString('en-US', dateOptions);
+
 function MonthTabs({ dates }: { dates: MarkdownData[] }) {
 	const info = dates.map(({ attributes }) => attributes)
 		.sort((a, b) => new Date(a.date).valueOf() - new Date(b.date).valueOf());
@@ -55,7 +65,7 @@ function MonthTabs({ dates }: { dates: MarkdownData[] }) {
 							backgroundColor='brand.blue'
 							py={8}
 						>
-							The Big Day: {new Date(date).toLocaleDateString('en-US', { timeZone: 'UTC' })}
+							{formatDate(date)}
 						</Heading>
 						<Flex
 							w='full'
