@@ -41,7 +41,6 @@ function PorchInfo(props: PorchInfoProps) {
 		}
 		return acc;
 	}, {} as Record<string, Record<string, string>>);
-
 	return (
 		<Flex
 			flexDirection='column'
@@ -54,10 +53,10 @@ function PorchInfo(props: PorchInfoProps) {
 				address = '',
 				performer_1 = '',
 				performer_1_link,
-				time_1 = '',
+				performer_1_time = '',
 				performer_2 = '',
 				performer_2_link,
-				time_2 = '',
+				performer_2_time = '',
 			}) => (
 				<Stack
 					key={address}
@@ -68,7 +67,7 @@ function PorchInfo(props: PorchInfoProps) {
 					borderRadius={12}
 				>
 					<Heading variant='secondary'>
-						{`${address} Porch`}
+						{address}
 						<Icon
 							as={FaHome}
 							ml={2}
@@ -77,12 +76,12 @@ function PorchInfo(props: PorchInfoProps) {
 					<PorchBox
 						performer={performer_1}
 						performerLink={performer_1_link}
-						time={time_1}
+						time={performer_1_time}
 					/>
 					<PorchBox
 						performer={performer_2}
 						performerLink={performer_2_link}
-						time={time_2}
+						time={performer_2_time}
 					/>
 				</Stack>
 			))}
