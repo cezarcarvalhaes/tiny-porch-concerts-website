@@ -1,6 +1,7 @@
 import {
 	Box,
 	Heading,
+	Flex,
 } from '@chakra-ui/react';
 import { MarkdownData } from '@util/importMarkdownFiles';
 import MonthTabs from './components/MonthTabs';
@@ -8,20 +9,27 @@ import MonthTabs from './components/MonthTabs';
 function Calendar({ dates }: { dates: MarkdownData[] }) {
 	const currentYear = new Date().getFullYear();
 	return (
-		<Box
+		<Flex
 			id='dates'
 			backgroundColor='brand.lightblue'
 			py={16}
 			px={{ base: 4, md: 8 }}
+			justifyContent='center'
 		>
-			<Heading
-				size='3xl'
-				textAlign='center'
+			<Box
+				w='full'
+				maxW='container.xl'
+				flexDir={{ base: 'column', md: 'row-reverse' }}
 			>
-				{currentYear} Calendar
-			</Heading>
-			<MonthTabs dates={dates}/>
-		</Box>
+				<Heading
+					size='3xl'
+					textAlign='center'
+				>
+					{currentYear} Calendar
+				</Heading>
+				<MonthTabs dates={dates}/>
+			</Box>
+		</Flex>
 	);
 }
 
