@@ -14,6 +14,7 @@ function Merch() {
 		image,
 		imageAlt,
 		link,
+		disabled,
 	} = attributes;
 
 	return (
@@ -52,6 +53,7 @@ function Merch() {
 							color='brand.green'
 							size='lg'
 							fontFamily='BobbyJones, sans-serif'
+							isDisabled={disabled}
 						>
             Order Now
 						</Button>

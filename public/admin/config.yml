@@ -25,6 +25,7 @@ collections:
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: 'Disable Ordering?', name: disable, widget: 'boolean' }
   - label: "Tiny Porch Dates"
     name: "tiny-porch-dates"
     folder: "content/dates"
