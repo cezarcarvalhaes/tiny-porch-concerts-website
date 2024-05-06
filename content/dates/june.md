@@ -27,7 +27,7 @@ porch_1_time_1: 5:00pm
 porch_2_time_2: 6:30pm
 porch_1_time_2: 6:00pm
 image: null
-porch_2_performer_2_time: "6:30-7:70pm "
+porch_2_performer_2_time: "6:30-7:20pm "
 porch_3_performer_1_time: "6:00-6:50pm "
 porch_3_performer_2_time: "7:00-7:50pm "
 ---
