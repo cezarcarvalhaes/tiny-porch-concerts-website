@@ -3,10 +3,11 @@ type YamlModule = {
   [key: string]: any;
 };
 
-interface FoodVendorInfo {
-  name: string;
-  link: string;
-  logo: string;
+export interface FoodVendorInfo {
+  name?: string;
+  link?: string;
+  logo?: string;
+  location?: string;
 }
 
 interface IPerformerInfo {

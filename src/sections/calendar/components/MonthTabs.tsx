@@ -10,6 +10,7 @@ import {
 
 import { EventInfo } from '@util/importDateFiles';
 import PorchInfo from './PorchInfo';
+import FoodVendors from './FoodVendors';
 
 const dateOptions: Intl.DateTimeFormatOptions = {
 	weekday: 'long',
@@ -55,6 +56,7 @@ function MonthTabs({ dates }: { dates: EventInfo[] }) {
 					image,
 					alt,
 					porches,
+					food_vendors,
 				}) => (
 					<TabPanel key={date}>
 						<Heading
@@ -90,6 +92,7 @@ function MonthTabs({ dates }: { dates: EventInfo[] }) {
 								/>
 							</Flex>
 						</Flex>
+						<FoodVendors vendors={food_vendors} />
 					</TabPanel>
 				))}
 			</TabPanels>
