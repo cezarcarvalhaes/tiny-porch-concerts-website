@@ -1,0 +1,32 @@
+month: "September"
+date: 2024-09-15T13:39:00.000Z
+food_vendor: 
+  - name: King of Pops
+    link: # add link here
+    logo: # add logo here
+  - name: 1115 Mobile Kitchen
+    link: # add link here
+    logo: # add logo here
+porches:
+  - address: 3200 Porter
+    performers:
+      - name: Deon Farmer / Greasy Bastards
+        link: https://youtube.com/@greasybs
+        time: "4:00-4:50pm"
+      - name: Heavy Shtetl
+        time: "5:00-5:50pm"
+  - address: "304 W 29th"
+    performers:
+      - name: # add name here
+        time: "4:30-5:20pm"
+      - name: The Approach
+        link: https://youtube.com/@seancastleberrymusic7769?si=fTDGvtKpkmg_9ds-
+        time: "5:30-6:20pm"
+  - address: "3201 Forest Hill Ave"
+    performers:
+      - name: Jukebox Charlie
+        link: https://www.instagram.com/reel/C0A7Q-tup-V/?igsh=MXA2MXgxN2Voa29lOA==
+        time: "5:00-5:50pm"
+      - name: ExPatriots
+        link: https://www.instagram.com/theexpatriots?igsh=ZHhqa21xN2h3eHB5
+        time: "6:00-6:50pm"

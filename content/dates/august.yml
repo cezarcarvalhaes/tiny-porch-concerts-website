@@ -1,0 +1,32 @@
+month: August
+date: 2024-08-18T17:00:00.000Z
+food_vendor: 
+  - name: King of Pops
+    link: # add link here
+    logo: # add logo here
+  - name: Arroz
+    link: # add link here
+    logo: # add logo here
+porches:
+  - address: 618 W 32nd
+    performers:
+      - name: Jonathan Walsh
+        link: https://www.jonathanwalshmusic.com/
+        time: "5:00-5:50pm"
+      - name: Los Hermanos Alacranes
+        link: www.facebook.com/alacranesrva
+        time: "6:00-6:50pm"
+  - address: "2901 Stonewall"
+    performers:
+      - name: Kuhl Jazz
+        time: "5:30-6:20pm"
+      - name: Near Miss
+        time: "6:30-7:20pm"
+  - address: "706 W 32nd"
+    performers:
+      - name: Turf Fire
+        link: www.turffire.com
+        time: "6:00-6:50pm"
+      - name: Logan Sorese
+        link: https://loganfromtheinternet.bandcamp.com/
+        time: "7:00-7:50pm"

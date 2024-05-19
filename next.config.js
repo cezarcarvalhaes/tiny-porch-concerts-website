@@ -8,10 +8,16 @@ const nextConfig = {
 		unoptimized: true,
 	},
 	webpack: (configuration) => {
-		configuration.module.rules.push({
-			test: /\.md$/,
-			use: 'frontmatter-markdown-loader',
-		});
+		configuration.module.rules.push(
+			{
+				test: /\.md$/,
+				use: 'frontmatter-markdown-loader',
+			},
+			{
+				test: /\.ya?ml$/,
+				use: 'yaml-loader',
+			},
+		);
 		return configuration;
 	},
 	// eslint-disable-next-line @typescript-eslint/require-await
