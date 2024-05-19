@@ -8,11 +8,11 @@ import Hero from '@sections/hero';
 import Calendar from '@sections/calendar';
 import GetInvolved from '@sections/get-involved';
 import Merch from '@sections/merch';
-import importMarkdownFiles, { MarkdownData } from '@util/importMarkdownFiles';
+import importDateFiles, { EventInfo } from '@util/importDateFiles';
 
 type WindowWithNetlifyIdentity = Window & { netlifyIdentity?: any };
 
-export default function Home({ dates }: { dates: MarkdownData[] }) {
+export default function Home({ dates }: { dates: EventInfo[] }) {
 	if (typeof window !== 'undefined') {
 		const { netlifyIdentity } = window as WindowWithNetlifyIdentity;
 		// Redirect to admin page if user is logged in
@@ -48,8 +48,7 @@ export default function Home({ dates }: { dates: MarkdownData[] }) {
 // It won't be called on client-side, so you can even do
 // direct database queries.
 export async function getStaticProps() {
-	const dates = await importMarkdownFiles();
-
+	const dates = await importDateFiles();
 	// By returning { props: { dates } }, the Page component
 	// will receive `dates` as a prop at build time
 	return {

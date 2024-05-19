@@ -26,38 +26,75 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
           - { label: 'Disable Ordering?', name: disable, widget: 'boolean' }
+
+  - name: 'faq'
+    label: 'FAQ'
+    files:
+      - label: 'Top Section'
+        name: 'top-section'
+        file: 'content/pages/faq/top-section.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'FAQ Entries'
+        name: 'faq-entries'
+        file: 'content/pages/faq/entries.yml'
+        fields:
+        - label: "FAQ Entries"
+          name: "entries"
+          widget: "list"
+          required: false
+          fields: 
+            - label: "Question"
+              name: "question"
+              widget: "string"
+            - label: "Answer"
+              name: "answer"
+              widget: "markdown"
+
   - label: "Tiny Porch Dates"
     name: "tiny-porch-dates"
     folder: "content/dates"
     identifier_field: "month"
     create: true
     fields:
-      - {label: "Month", name: "month", widget: "string", required: false}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Food Vendor", name: "food_vendor", widget: "string", required: false}
-      - {label: "Food Vendor Menu Url", name: "food_vendor_menu_url", widget: "string", required: false}
-      - {label: "Food Vendor Location", name: "food_vendor_location", widget: "string", required: false}
-
-      - {label: "Porch 1 Address", name: "porch_1_address", widget: "string", required: false}
-      - {label: "Porch 1 Performer 1", name: "porch_1_performer_1", widget: "string", required: false}
-      - {label: "Porch 1 Performer 1 Link", name: "porch_1_performer_1_link", widget: "string", required: false}
-      - {label: "Porch 1 Performer 1 Start Time", name: "porch_1_performer_1_time", widget: "string", required: false}
-      - {label: "Porch 1 Performer 2", name: "porch_1_performer_2", widget: "string", required: false}
-      - {label: "Porch 1 Performer 2 Link", name: "porch_1_performer_2_link", widget: "string", required: false}
-      - {label: "Porch 1 Performer 2 Start Time", name: "porch_1_performer_2_time", widget: "string", required: false}
-
-      - {label: "Porch 2 Address", name: "porch_2_address", widget: "string", required: false}
-      - {label: "Porch 2 Performer 1", name: "porch_2_performer_1", widget: "string", required: false}
-      - {label: "Porch 2 Performer 1 Link", name: "porch_2_performer_1_link", widget: "string", required: false}
-      - {label: "Porch 2 Performer 1 Start Time", name: "porch_2_performer_1_time", widget: "string", required: false}
-      - {label: "Porch 2 Performer 2", name: "porch_2_performer_2", widget: "string", required: false}
-      - {label: "Porch 2 Performer 2 Link", name: "porch_2_performer_2_link", widget: "string", required: false}
-      - {label: "Porch 2 Performer 2 Start Time", name: "porch_2_performer_2_time", widget: "string", required: false}
-
-      - {label: "Porch 2 Address", name: "porch_3_address", widget: "string", required: false}
-      - {label: "Porch 2 Performer 1", name: "porch_3_performer_1", widget: "string", required: false}
-      - {label: "Porch 2 Performer 1 Link", name: "porch_3_performer_1_link", widget: "string", required: false}
-      - {label: "Porch 2 Performer 1 Start Time", name: "porch_3_performer_1_time", widget: "string", required: false}
-      - {label: "Porch 2 Performer 2", name: "porch_3_performer_2", widget: "string", required: false}
-      - {label: "Porch 2 Performer 2 Link", name: "porch_3_performer_2_link", widget: "string", required: false}
-      - {label: "Porch 2 Performer 2 Start Time", name: "porch_3_performer_2_time", widget: "string", required: false}
+      - label: "Month"
+        name: "month" 
+        widget: "string"
+        required: false
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+      - label: "Image/Map"
+        name: "image"
+        widget: "image"
+      - label: "Image Alt Text"
+        name: "alt"
+        widget: "text"
+        default: "Map"
+      - label: "Food Vendors"
+        name: "food_vendors"
+        widget: "list"
+        required: false
+        fields: 
+          - {label: "Name", name: "name", widget: "string", required: false}
+          - {label: "Link", name: "link", widget: "string", required: false}
+          - {label: "Logo", name: "logo", widget: "image", required: false}
+          - {label: "Location", name: "location", widget: "string", required: false}
+      - label: "Porches"
+        name: "porches"
+        widget: "list"
+        required: false
+        fields: 
+          - label: "Address"
+            name: "address"
+            widget: "string"
+            required: false
+          - label: "Performers"
+            name: "performers"
+            widget: "list"
+            required: false
+            fields: 
+            - {label: "Name", name: "name", widget: "string", required: false}
+            - {label: "Link", name: "link", widget: "string", required: false}
+            - {label: "Show Time", name: "logo", widget: "string", required: false}

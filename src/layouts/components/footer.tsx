@@ -1,5 +1,6 @@
 import {
 	Box,
+	Flex,
 	Link,
 	Icon,
 	Text,
@@ -10,9 +11,11 @@ import { FaEnvelope } from 'react-icons/fa';
 function Footer() {
 	return (
 		<>
-			<Box
+			<Flex
 				p={8}
 				backgroundColor='brand.limegreen'
+				flexDir='column'
+				justifySelf='flex-end'
 			>
 				<Box w='full' textAlign='center'>
 					<Link
@@ -33,7 +36,7 @@ function Footer() {
 						</Link>
 					</Text>
 				</Box>
-			</Box>
+			</Flex>
 			{/* Turn on below when we have page links to add */}
 			{/* <Box
 				p={8}

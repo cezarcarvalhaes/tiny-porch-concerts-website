@@ -1,5 +1,5 @@
 import {
-	Box,
+	Flex,
 } from '@chakra-ui/react';
 import Footer from './components/footer';
 
@@ -9,9 +9,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
 	return (
-		<Box w="full">
+		<Flex
+			w="full"
+			flexDirection="column"
+			minH="100vh"
+		>
 			{children}
 			<Footer />
-		</Box>
+		</Flex>
 	);
 }

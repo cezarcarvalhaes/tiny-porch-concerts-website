@@ -10,31 +10,33 @@ interface PorchBoxProps {
   time: string;
 }
 const PorchBox = ({
-	performer,
-	performerLink,
-	time,
+	performer = '',
+	performerLink = '',
+	time = '',
 }: PorchBoxProps) => (
 	<Flex>
 		<Text
 			fontFamily='BobbyJonesSoftCondensed, sans-serif'
 		>
-			{time}:
+			{time.trim()}:
 		</Text>
 		{' '}
 		{performerLink ? (
 			<Link
-				href={performerLink}
+				href={performerLink?.trim()}
 				fontFamily='BobbyJones, sans-serif'
 				color='brand.green'
 				textDecoration='underline'
+				ml={2}
+				isExternal
 			>
-				{performer}
+				{performer?.trim()}
 			</Link>
 		) : (
 			<Text
 				fontFamily='BobbyJones, sans-serif'
 			>
-				{performer}
+				{performer?.trim()}
 			</Text>
 		)}
 	</Flex>

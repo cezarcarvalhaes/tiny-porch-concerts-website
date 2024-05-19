@@ -3,10 +3,10 @@ import {
 	Heading,
 	Flex,
 } from '@chakra-ui/react';
-import { MarkdownData } from '@util/importMarkdownFiles';
+import { EventInfo } from '@util/importDateFiles';
 import MonthTabs from './components/MonthTabs';
 
-function Calendar({ dates }: { dates: MarkdownData[] }) {
+function Calendar({ dates }: { dates: EventInfo[] }) {
 	const currentYear = new Date().getFullYear();
 	return (
 		<Flex

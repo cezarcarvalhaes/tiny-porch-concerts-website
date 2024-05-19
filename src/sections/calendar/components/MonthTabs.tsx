@@ -8,8 +8,9 @@ import {
 	TabPanel,
 } from '@chakra-ui/react';
 
-import { MarkdownData } from '@util/importMarkdownFiles';
+import { EventInfo } from '@util/importDateFiles';
 import PorchInfo from './PorchInfo';
+import FoodVendors from './FoodVendors';
 
 const dateOptions: Intl.DateTimeFormatOptions = {
 	weekday: 'long',
@@ -21,9 +22,8 @@ const dateOptions: Intl.DateTimeFormatOptions = {
 
 const formatDate = (date: string) => new Date(date).toLocaleDateString('en-US', dateOptions);
 
-function MonthTabs({ dates }: { dates: MarkdownData[] }) {
-	const info = dates.map(({ attributes }) => attributes)
-		.sort((a, b) => new Date(a.date).valueOf() - new Date(b.date).valueOf());
+function MonthTabs({ dates }: { dates: EventInfo[] }) {
+	const info = dates.sort((a, b) => new Date(a.date).valueOf() - new Date(b.date).valueOf());
 	return (
 		<Tabs
 			mt={8}
@@ -49,12 +49,14 @@ function MonthTabs({ dates }: { dates: MarkdownData[] }) {
 					</Tab>
 				))}
 			</TabList>
+
 			<TabPanels>
 				{info.map(({
 					date,
 					image,
 					alt,
-					...porchesInfo
+					porches,
+					food_vendors,
 				}) => (
 					<TabPanel key={date}>
 						<Heading
@@ -72,7 +74,7 @@ function MonthTabs({ dates }: { dates: MarkdownData[] }) {
 							flexDir={{ base: 'column', md: 'row' }}
 							alignItems='center'
 						>
-							<PorchInfo {...porchesInfo} />
+							<PorchInfo porchInfo={porches} />
 							<Flex
 								w='full'
 								flexDir='column'
@@ -84,12 +86,13 @@ function MonthTabs({ dates }: { dates: MarkdownData[] }) {
 									Map
 								</Heading>
 								<img
-									src={`/images/uploads/${image || 'coming-soon.png'}`}
+									src={image || '/images/uploads/coming-soon.png'}
 									alt={alt || 'Map Coming Soon'}
 									className='my-auto'
 								/>
 							</Flex>
 						</Flex>
+						<FoodVendors vendors={food_vendors} />
 					</TabPanel>
 				))}
 			</TabPanels>
