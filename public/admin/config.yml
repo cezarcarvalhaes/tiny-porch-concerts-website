@@ -26,6 +26,32 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
           - { label: 'Disable Ordering?', name: disable, widget: 'boolean' }
+
+  - name: 'faq'
+    label: 'FAQ'
+    files:
+      - label: 'Top Section'
+        name: 'top-section'
+        file: 'content/pages/faq/top-section.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'FAQ Entries'
+        name: 'faq-entries'
+        file: 'content/pages/faq/entries.yml'
+        fields:
+        - label: "FAQ Entries"
+          name: "entries"
+          widget: "list"
+          required: false
+          fields: 
+            - label: "Question"
+              name: "question"
+              widget: "string"
+            - label: "Answer"
+              name: "answer"
+              widget: "markdown"
+
   - label: "Tiny Porch Dates"
     name: "tiny-porch-dates"
     folder: "content/dates"

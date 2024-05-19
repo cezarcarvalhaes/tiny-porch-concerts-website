@@ -43,7 +43,7 @@ function PorchInfo({ porchInfo = [] }: { porchInfo: EventInfo['porches'] }) {
 						time,
 					}) => (
 						<PorchBox
-							key={name}
+							key={`${name}-${time}`}
 							performer={name}
 							performerLink={link}
 							time={time}
