@@ -84,7 +84,7 @@ function MonthTabs({ dates }: { dates: EventInfo[] }) {
 									Map
 								</Heading>
 								<img
-									src={`/images/uploads/${image || 'coming-soon.png'}`}
+									src={image || '/images/uploads/coming-soon.png'}
 									alt={alt || 'Map Coming Soon'}
 									className='my-auto'
 								/>
