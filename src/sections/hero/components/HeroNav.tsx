@@ -1,21 +1,13 @@
 import React, { useEffect } from 'react';
 import {
 	IconButton,
-	Drawer,
-	DrawerOverlay,
-	DrawerContent,
-	DrawerCloseButton,
-	DrawerHeader,
-	DrawerBody,
-	Link,
 	Flex,
 	Slide,
 	useDisclosure,
-	VStack,
 } from '@chakra-ui/react';
 import { FaBars } from 'react-icons/fa';
 
-import { SECTIONS } from '@sections/dictionary';
+import NavDrawer from '@layouts/components/NavDrawer';
 
 type NavMenuProps = {
   triggerElementRef: React.RefObject<HTMLDivElement>;
@@ -23,13 +15,13 @@ type NavMenuProps = {
 
 const NavMenu: React.FC<NavMenuProps> = ({ triggerElementRef }) => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
-	const [showButton, setShowButton] = React.useState(false);
+	const [shouldShowButton, setShouldShowButton] = React.useState(false);
 
 	useEffect(() => {
 		const element = triggerElementRef.current;
 		const observer = new IntersectionObserver(
 			([entry]) => {
-				setShowButton(!entry.isIntersecting);
+				setShouldShowButton(!entry.isIntersecting);
 			},
 			{ threshold: 0 },
 		);
@@ -47,7 +39,7 @@ const NavMenu: React.FC<NavMenuProps> = ({ triggerElementRef }) => {
 
 	return (
 		<>
-			<Slide direction="top" in={showButton} style={{ zIndex: 10 }}>
+			<Slide direction="top" in={shouldShowButton} style={{ zIndex: 10 }}>
 				<Flex
 					backgroundColor='brand.mediumGreen'
 					w='full'
@@ -63,39 +55,7 @@ const NavMenu: React.FC<NavMenuProps> = ({ triggerElementRef }) => {
 				</Flex>
 			</Slide>
 
-			<Drawer isOpen={isOpen} placement="left" onClose={onClose}>
-				<DrawerOverlay>
-					<DrawerContent
-						bgColor='brand.lightblue'
-					>
-						<DrawerCloseButton />
-						<DrawerHeader
-							fontFamily='BobbyJones, sans-serif'
-							fontSize='2xl'
-							textAlign='center'
-							my={4}
-						>
-              Tiny Porch Concerts
-						</DrawerHeader>
-						<DrawerBody>
-							<VStack spacing={4}>
-								{SECTIONS.map(({ label, href }) => (
-									<Link
-										key={href}
-										href={href}
-										fontSize='2xl'
-										fontFamily='BobbyJones, sans-serif'
-										color='brand.green'
-										onClick={onClose}
-									>
-										{label}
-									</Link>
-								))}
-							</VStack>
-						</DrawerBody>
-					</DrawerContent>
-				</DrawerOverlay>
-			</Drawer>
+			<NavDrawer isOpen={isOpen} onClose={onClose} />
 		</>
 	);
 };

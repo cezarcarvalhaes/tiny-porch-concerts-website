@@ -2,6 +2,7 @@
 
 import Head from 'next/head';
 import Script from 'next/script';
+import type { ReactElement } from 'react';
 
 import About from '@sections/about';
 import Hero from '@sections/hero';
@@ -9,10 +10,11 @@ import Calendar from '@sections/calendar';
 import GetInvolved from '@sections/get-involved';
 import Merch from '@sections/merch';
 import importDateFiles, { EventInfo } from '@util/importDateFiles';
+import RootLayout from '../layouts/RootLayout';
 
 type WindowWithNetlifyIdentity = Window & { netlifyIdentity?: any };
 
-export default function Home({ dates }: { dates: EventInfo[] }) {
+function Home({ dates }: { dates: EventInfo[] }) {
 	if (typeof window !== 'undefined') {
 		const { netlifyIdentity } = window as WindowWithNetlifyIdentity;
 		// Redirect to admin page if user is logged in
@@ -43,6 +45,16 @@ export default function Home({ dates }: { dates: EventInfo[] }) {
 		</>
 	);
 }
+
+Home.getLayout = function getLayout(page: ReactElement) {
+	return (
+		<RootLayout>
+			{page}
+		</RootLayout>
+	);
+};
+
+export default Home;
 
 // This function gets called at build time on server-side.
 // It won't be called on client-side, so you can even do
