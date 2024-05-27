@@ -25,6 +25,9 @@
       "@components/*": [
         "./src/components/*"
       ],
+      "@layouts/*" : [
+        "./src/layouts/*"
+      ],
       "@sections": [
         "./src/sections/index.ts"
       ],

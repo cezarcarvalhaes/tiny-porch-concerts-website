@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import Image from 'next/image';
+import NextLink from 'next/link';
 import {
 	Box,
 	Center,
@@ -8,8 +9,8 @@ import {
 	useBreakpointValue,
 } from '@chakra-ui/react';
 
-import NavMenu from '@ui/NavMenu';
 import { SECTIONS } from '@sections/dictionary';
+import NavMenu from './HeroNav';
 
 function NavSections() {
 	const triggerElementRef = useRef<HTMLDivElement>(null);
@@ -36,7 +37,6 @@ function NavSections() {
 						src={imageSrc!}
 						alt='Homes'
 						fill
-						unoptimized
 					/>
 				</Box>
 			</div>
@@ -51,6 +51,7 @@ function NavSections() {
 				>
 					{SECTIONS.map(({ label, href }) => (
 						<Link
+							as={NextLink}
 							key={href}
 							href={href}
 							fontSize='2xl'

@@ -90,6 +90,10 @@ body {
 }
 
 @media (max-width: 767px) {
+	.blob-container {
+		max-width: 500px;
+		margin: 0 auto;
+	}
 	.blob {
 		width: 50%;
 		height: 55%;

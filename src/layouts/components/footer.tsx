@@ -1,6 +1,7 @@
 import {
 	Box,
 	Flex,
+	Heading,
 	Link,
 	Icon,
 	Text,
@@ -8,16 +9,28 @@ import {
 import NextLink from 'next/link';
 import { FaEnvelope } from 'react-icons/fa';
 
+import FooterLink from './FooterLink';
+
+const links = [
+	{ href: '/#about', text: 'About' },
+	{ href: '/faq', text: 'FAQ' },
+	// { href: '', text: 'Our Artists (Coming Soon)' },
+	{ href: '/#get-involved', text: 'Get Involved' },
+	{ href: '/press', text: 'Press' },
+	// { href: '', text: 'Sponsors (Coming Soon)' },
+];
+
 function Footer() {
 	return (
 		<>
 			<Flex
 				p={8}
 				backgroundColor='brand.limegreen'
-				flexDir='column'
+				flexDir={{ base: 'column', md: 'row' }}
 				justifySelf='flex-end'
 			>
-				<Box w='full' textAlign='center'>
+
+				<Box w='full' textAlign={{ base: 'center', md: 'left' }}>
 					<Link
 						as={NextLink}
 						href='/'
@@ -36,25 +49,14 @@ function Footer() {
 						</Link>
 					</Text>
 				</Box>
+
+				<Box pt={4} w='full' textAlign={{ base: 'center', md: 'left' }}>
+					<Heading size='lg' variant='secondary'>Links:</Heading>
+					<ul>
+						{links.map(({ href, text }) => (<FooterLink key={text} href={href}>{text}</FooterLink>))}
+					</ul>
+				</Box>
 			</Flex>
-			{/* Turn on below when we have page links to add */}
-			{/* <Box
-				p={8}
-				backgroundColor='brand.green'
-			>
-				<Flex
-					w='full'
-					maxW='container.xl'
-					mx='auto'
-				>
-					<Box pt={1} w='full'>
-						<Heading size='md' variant='secondary'>Links</Heading>
-						<ul>
-							<li></li>
-						</ul>
-					</Box>
-				</Flex>
-			</Box> */}
 		</>
 	);
 }
