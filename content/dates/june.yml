@@ -6,7 +6,7 @@ food_vendors:
   - name: Arroz
     link: https://www.arrozrva.com/
     logo: images/uploads/arroz.webp
-    location: W 28th + New Kent Avt
+    location: W 28th + New Kent Ave
   - name: King of Pops
     link: https://kingofpops.com/
     logo: images/uploads/kop_logo.webp
