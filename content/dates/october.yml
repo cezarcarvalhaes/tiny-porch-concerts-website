@@ -1,34 +1,36 @@
-month: "October"
+month: October
 date: 2024-10-20T16:00:00.000Z
-food_vendor: 
+food_vendor:
   - name: King of Pops
-    link: # add link here
-    logo: # add logo here
+    link: null
+    logo: null
   - name: Arroz
-    link: # add link here
-    logo: # add logo here
+    link: null
+    logo: null
+image: /images/uploads/coming-soon.png
+alt: Coming soon map
 porches:
   - address: 611 W 32nd
     performers:
-      - name: # add name here
-        link: # add link here
-        time: "4:00-4:50pm"
-      - name: # add name here
-        link: # add link here
-        time: "5:00-5:50pm"
-  - address: "518 W 32nd"
+      - name: Coming September 1st
+        link: null
+        time: 4:00-4:50pm
+      - name: null
+        link: null
+        time: 5:00-5:50pm
+  - address: 518 W 32nd
     performers:
-      - name: # add name here
-        link: # add link here
-        time: "4:30-5:20pm"
-      - name: # add name here
-        link: # add link here
-        time: "5:30-6:20pm"
+      - name: Coming September 1st
+        link: null
+        time: 4:30-5:20pm
+      - name: null
+        link: null
+        time: 5:30-6:20pm
   - address: 615 W 33rd
     performers:
-      - name: # add name here
-        link: # add link here
-        time: "5:00-5:50pm"
-      - name: # add name here
-        link: # add link here
-        time: "6:00-6:50pm"
+      - name: Coming September 1st
+        link: null
+        time: 5:00-5:50pm
+      - name: null
+        link: null
+        time: 6:00-6:50pm
