@@ -9,6 +9,13 @@ food_vendor:
     logo: null
 image: /images/uploads/coming-soon.png
 alt: Coming soon map
+food_vendors:
+  - name: King of Pops
+    logo: /images/uploads/kop_logo.webp
+    location: TBD
+  - name: "1115 Mobile Kitchen "
+    logo: /images/uploads/5f2c426ccaf2ad9ae346b910_lndgpg-things-02.jpg
+    location: TBD
 porches:
   - address: 3200 Porter
     performers:
