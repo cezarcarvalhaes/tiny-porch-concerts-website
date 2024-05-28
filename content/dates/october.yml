@@ -9,6 +9,13 @@ food_vendor:
     logo: null
 image: /images/uploads/coming-soon.png
 alt: Coming soon map
+food_vendors:
+  - name: "Arroz! "
+    logo: /images/uploads/arroz.webp
+    location: TBD
+  - name: "King of Pops! "
+    logo: /images/uploads/kop_logo.webp
+    location: TBD
 porches:
   - address: 611 W 32nd
     performers:
