@@ -16,7 +16,6 @@ food_vendors:
   - name: 1115 Mobile Kitchen
     logo: /images/uploads/5f2c426ccaf2ad9ae346b910_lndgpg-things-02.jpg
     location: TBD
-  - {}
 porches:
   - address: "612 W 26th "
     performers:
