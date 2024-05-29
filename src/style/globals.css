@@ -31,6 +31,20 @@ body {
 	text-decoration: underline;
 }
 
+.markdown-subdued a {
+	transition-property: var(--chakra-transition-property-common);
+	transition-duration: var(--chakra-transition-duration-fast);
+	transition-timing-function: var(--chakra-transition-easing-ease-out);
+	cursor: pointer;
+	-webkit-text-decoration: none;
+	text-decoration: none;
+	outline: 2px solid transparent;
+	outline-offset: 2px;
+	font-size: inherit;
+	font-family: inherit;
+	color: var(--chakra-colors-brand-green);
+}
+
 .blob-container {
 	position: relative;
 	width: 100%;
