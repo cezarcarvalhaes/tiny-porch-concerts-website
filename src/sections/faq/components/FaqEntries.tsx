@@ -7,6 +7,8 @@ import {
 	Box,
 	BoxProps,
 } from '@chakra-ui/react';
+import Markdown from 'react-markdown';
+
 import type { FaqEntry } from '@util/importFaqEntries';
 
 interface FaqEntriesProps extends BoxProps {
@@ -30,7 +32,9 @@ function FaqEntries({ entries = [], ...boxProps }: FaqEntriesProps) {
 								<AccordionIcon />
 							</AccordionButton>
 						</h2>
-						<AccordionPanel pb={4}>{answer}</AccordionPanel>
+						<AccordionPanel pb={4}>
+							<Markdown className="markdown markdown-subdued">{answer}</Markdown>
+						</AccordionPanel>
 					</AccordionItem>
 				))}
 			</Accordion>
