@@ -7,7 +7,7 @@ food_vendor:
   - name: Arroz
     link: null
     logo: null
-image: /images/uploads/coming-soon.png
+image: /images/uploads/host-porches.png
 alt: Coming soon map
 food_vendors:
   - name: "Arroz! "
