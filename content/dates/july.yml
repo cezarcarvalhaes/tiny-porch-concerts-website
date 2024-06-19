@@ -11,12 +11,12 @@ image: /images/uploads/july-map.png
 alt: "July Map "
 food_vendors:
   - name: King of Pops
-    location: "25th + McDonogh "
+    location: 25th + McDonough
     logo: /images/uploads/kop_logo.webp
     link: https://www.facebook.com/KingofPopsRichmond/
   - name: 1115 Mobile Kitchen
     logo: /images/uploads/5f2c426ccaf2ad9ae346b910_lndgpg-things-02.jpg
-    location: "25th + McDonogh "
+    location: "25th + McDonough "
     link: https://www.1115mobilekitchen.com/
 porches:
   - address: "612 W 26th "
