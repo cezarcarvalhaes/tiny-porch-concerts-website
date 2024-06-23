@@ -6,4 +6,6 @@ link: https://docs.google.com/forms/d/e/1FAIpQLSfOeugb4VKhf_ulpE0nf6g557Jzd6-mgM
 disabled: true
 disable: false
 ---
-Ordering for Tiny Porch Concerts T-shirts closed on May 1st. **[However, if you would like to order a shirt during our second, mid-summer round of printing, please indicate your interest here! ](https://docs.google.com/forms/d/e/1FAIpQLSe9ZpoKF3GeDeNab23AvX36yV7EK2YAKu_YYUIYw1PMosridw/viewform)**
+Ordering for Tiny Porch Concerts T-shirts closed on May 1st... but due to popular demand, a second/final round of shirt orders are open! [Submit your order and payment by July 21st to secure a 2024 Tiny Porch Shirt. ](https://docs.google.com/forms/d/e/1FAIpQLScjITxDYXZqrh84aSCpXl7j5Gpfun9V-yO6cef7_cceAHEe6A/viewform)
+
+Shirts will be picked up prior to the August 2024 Tiny Porch Concerts. [Order today! ](https://docs.google.com/forms/d/e/1FAIpQLScjITxDYXZqrh84aSCpXl7j5Gpfun9V-yO6cef7_cceAHEe6A/viewform)
