@@ -2,7 +2,7 @@
   "items": [
     {
       "title": "Shirts",
-      "image": "tiny-porch-shirt.png",
+      "image": "/images/uploads/tiny-porch-shirt.png",
       "imageAlt": "Tiny Porch T-shirt",
       "link": "https://docs.google.com/forms/d/e/1FAIpQLScjITxDYXZqrh84aSCpXl7j5Gpfun9V-yO6cef7_cceAHEe6A/viewform",
       "disabled": false,

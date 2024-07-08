@@ -53,9 +53,10 @@ collections:
               name: "link"
               widget: "string"
               required: false
-            - label: "Disable"
+            - label: "Hide 'Order Now' Button"
               name: "disabled"
               widget: "boolean"
+              required: false
             - label: "Description"
               name: "description"
               widget: "markdown"

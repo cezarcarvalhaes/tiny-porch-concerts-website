@@ -14,9 +14,10 @@ function MerchList() {
 			justifyContent='center'
 			mt={8}
 		>
-			{merchandise.items.map((mediaItem) => (
+			{merchandise.items.map((mediaItem, index) => (
 				<MerchItem
 					key={mediaItem.title}
+					index={index}
 					{...mediaItem}
 				/>
 			))}
