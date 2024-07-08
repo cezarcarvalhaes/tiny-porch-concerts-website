@@ -37,10 +37,10 @@ function Home({ dates }: { dates: EventInfo[] }) {
 			</Head>
 			<main className="">
 				<Hero />
-				<About />
 				<Calendar dates={dates}/>
-				<Merch />
+				<About />
 				<GetInvolved />
+				<Merch />
 			</main>
 		</>
 	);

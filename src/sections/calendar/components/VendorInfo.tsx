@@ -23,12 +23,14 @@ function VendorInfo({
 			alignItems='center'
 			borderRadius='full'
 			boxSize='300px'
+			textAlign='center'
 		>
 			<Image
-				maxW='200px'
+				maxW='185px'
 				src={logo}
 				alt={`Logo for ${name}`}
 				mx='auto'
+				p={1}
 			/>
 			{link ? (
 				<Link

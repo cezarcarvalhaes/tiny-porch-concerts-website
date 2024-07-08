@@ -1,6 +1,7 @@
 import {
 	Flex,
 	Heading,
+	Image,
 	Tabs,
 	Tab,
 	TabList,
@@ -24,11 +25,19 @@ const formatDate = (date: string) => new Date(date).toLocaleDateString('en-US', 
 
 function MonthTabs({ dates }: { dates: EventInfo[] }) {
 	const info = dates.sort((a, b) => new Date(a.date).valueOf() - new Date(b.date).valueOf());
+
+	// Find the next upcoming event based on today's date.
+	const defaultIndex = info.findIndex(({ date }) => {
+		const endOfDate = new Date(date);
+		endOfDate.setHours(23, 59, 59, 999);
+		return endOfDate.valueOf() > Date.now();
+	}) || 0;
 	return (
 		<Tabs
 			mt={8}
 			display='flex'
 			flexDirection='column'
+			defaultIndex={defaultIndex}
 		>
 			<TabList
 				flexDirection={{ base: 'row' }}
@@ -85,10 +94,12 @@ function MonthTabs({ dates }: { dates: EventInfo[] }) {
 								<Heading variant={'secondary'} textAlign='center'>
 									Map
 								</Heading>
-								<img
+								<Image
+									w='full'
 									src={image || '/images/uploads/coming-soon.png'}
 									alt={alt || 'Map Coming Soon'}
-									className='my-auto'
+									my='auto'
+									p={1}
 								/>
 							</Flex>
 						</Flex>

@@ -7,15 +7,15 @@ food_vendor:
   - name: Arroz
     link: null
     logo: null
-image: /images/uploads/coming-soon.png
+image: /images/uploads/august-map.png
 alt: "Coming soon! "
 food_vendors:
   - name: "King of Pops "
     logo: /images/uploads/kop_logo.webp
-    location: TBD
+    location: Woodland Heights Baptist Parking Lot
   - name: Arroz!
     logo: /images/uploads/arroz.webp
-    location: TBD
+    location: Woodland Heights Baptist Parking Lot
 porches:
   - address: 618 W 32nd
     performers:
@@ -31,6 +31,7 @@ porches:
         time: 5:30-6:20pm
       - name: Near Miss
         time: 6:30-7:20pm
+        link: https://www.instagram.com/near_miss_music?igsh=eHR2amx6ZGczZmdo
   - address: 706 W 32nd
     performers:
       - name: Turf Fire
