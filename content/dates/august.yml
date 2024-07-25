@@ -13,6 +13,7 @@ food_vendors:
   - name: "King of Pops "
     logo: /images/uploads/kop_logo.webp
     location: Woodland Heights Baptist Parking Lot
+    link: https://www.facebook.com/KingofPopsRichmond/
   - name: Arroz!
     logo: /images/uploads/arroz.webp
     location: Woodland Heights Baptist Parking Lot
