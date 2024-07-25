@@ -16,6 +16,7 @@ food_vendors:
   - name: Arroz!
     logo: /images/uploads/arroz.webp
     location: Woodland Heights Baptist Parking Lot
+    link: https://m.facebook.com/ArrozRVA/photos/
   - name: KavaClub Free Happy Hour
     link: https://www.kavaclub.com/
     location: Woodland Heights Baptist Parking Lot
