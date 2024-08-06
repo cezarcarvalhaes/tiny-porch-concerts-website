@@ -7,15 +7,17 @@ food_vendor:
   - name: 1115 Mobile Kitchen
     link: null
     logo: null
-image: /images/uploads/host-porches.png
-alt: Coming soon map
+image: /images/uploads/september.png
+alt: September Map
 food_vendors:
   - name: King of Pops
     logo: /images/uploads/kop_logo.webp
-    location: TBD
+    location: "Porter + W 29th "
+    link: https://www.facebook.com/KingofPopsRichmond/
   - name: "1115 Mobile Kitchen "
     logo: /images/uploads/5f2c426ccaf2ad9ae346b910_lndgpg-things-02.jpg
-    location: TBD
+    location: "Porter + W 29th "
+    link: https://www.1115mobilekitchen.com/
 porches:
   - address: 3200 Porter
     performers:
