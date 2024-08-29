@@ -18,6 +18,10 @@ food_vendors:
     logo: /images/uploads/5f2c426ccaf2ad9ae346b910_lndgpg-things-02.jpg
     location: "Porter + W 29th "
     link: https://www.1115mobilekitchen.com/
+  - name: "Kava Club - Free Samples "
+    logo: /images/uploads/63e14e07c7224824fecd9b9c_logo.svg
+    link: https://www.kavaclub.com/
+    location: "Porter + W 29th "
 porches:
   - address: 3200 Porter
     performers:
