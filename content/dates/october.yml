@@ -29,10 +29,10 @@ porches:
         time: 5:00-5:50pm
   - address: 518 W 32nd
     performers:
-      - name: Coming October 1st
-        link: null
+      - name: "Alexandra Scott "
+        link: https://alexandrascott.bandcamp.com/music
         time: 4:30-5:20pm
-      - name: null
+      - name: "Coming by October 1st! "
         link: null
         time: 5:30-6:20pm
   - address: 615 W 33rd
