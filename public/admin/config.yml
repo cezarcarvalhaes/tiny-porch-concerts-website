@@ -171,4 +171,4 @@ collections:
             fields: 
             - {label: "Name", name: "name", widget: "string", required: false}
             - {label: "Link", name: "link", widget: "string", required: false}
-            - {label: "Show Time", name: "logo", widget: "string", required: false}
+            - {label: "Show Time", name: "time", widget: "string", required: false}
