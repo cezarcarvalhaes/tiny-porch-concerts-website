@@ -35,11 +35,12 @@ porches:
     performers:
       - name: Chyna
         time: 4:30-5:20pm
-        logo: 4:30-5:0pm
+        logo: 4:45-5:35pm
         link: "https://www.youtube.com/results?search_query=blue+chyna "
       - name: The Approach
         link: https://youtube.com/@seancastleberrymusic7769?si=fTDGvtKpkmg_9ds-
         time: 5:30-6:20pm
+        logo: 5:45-6:35
   - address: 3201 Forest Hill Ave
     performers:
       - name: Jukebox Charlie
