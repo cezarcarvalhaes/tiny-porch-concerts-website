@@ -21,10 +21,10 @@ food_vendors:
 porches:
   - address: 611 W 32nd
     performers:
-      - name: Coming October 1st
+      - name: Coming by October 1st
         link: null
         time: 4:00-4:50pm
-      - name: null
+      - name: Coming by October 1st
         link: null
         time: 5:00-5:50pm
   - address: 518 W 32nd
@@ -37,9 +37,9 @@ porches:
         time: 5:30-6:20pm
   - address: 615 W 33rd
     performers:
-      - name: Coming October 1st
+      - name: Coming by October 1st
         link: null
         time: 5:00-5:50pm
-      - name: null
+      - name: Coming by by October 1st
         link: null
         time: 6:00-6:50pm
