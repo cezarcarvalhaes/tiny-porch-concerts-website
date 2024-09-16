@@ -10,8 +10,8 @@ food_vendor:
 image: /images/uploads/october.png
 alt: Coming soon map
 food_vendors:
-  - name: "Arroz! "
-    logo: /images/uploads/arroz.webp
+  - name: Mobile 1115
+    logo: /images/uploads/5f2c426ccaf2ad9ae346b910_lndgpg-things-02.jpg
     location: In front of the Stonewall alley between 32nd + 33rd
     link: https://www.facebook.com/ArrozRVA/
   - name: "King of Pops! "
