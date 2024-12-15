@@ -1,0 +1,44 @@
+month: July
+date: 2024-07-21T17:00:00.000Z
+food_vendor:
+  - name: 1115 Mobile Kitchen
+    link: null
+    logo: null
+  - name: King of Pops
+    link: null
+    logo: null
+image: /images/uploads/july-map.png
+alt: "July Map "
+food_vendors:
+  - name: King of Pops
+    location: 25th + McDonough
+    logo: /images/uploads/kop_logo.webp
+    link: https://www.facebook.com/KingofPopsRichmond/
+  - name: 1115 Mobile Kitchen
+    logo: /images/uploads/5f2c426ccaf2ad9ae346b910_lndgpg-things-02.jpg
+    location: "25th + McDonough "
+    link: https://www.1115mobilekitchen.com/
+porches:
+  - address: "612 W 26th "
+    performers:
+      - name: Michael Hawkins
+        link: https://youtu.be/iAp5TVyYdec?si=qGli-dPsL1SUrLsN
+        time: 5:00-5:50pm
+      - name: Nothing Rhymes With Orange
+        time: "6:00-6:50pm "
+  - address: "400 W 24th "
+    performers:
+      - name: Brothers King
+        link: www.brothersking.com
+        time: "5:30-6:20pm "
+      - name: Tall Joshua
+        link: https://www.instagram.com/thetalljoshua/
+        time: "6:30-7:20pm "
+  - address: 406 W 25th
+    performers:
+      - name: Elle Christine
+        link: https://ellechristine.bandcamp.com/music
+        time: "6:00-6:50pm "
+      - name: " Brookhouse"
+        link: https://www.instagram.com/brookhouse.music/
+        time: "7:00-7:50pm "

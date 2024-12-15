@@ -1,0 +1,38 @@
+month: June
+date: 2024-06-16
+image: /images/uploads/june-map.png
+alt: June Map
+food_vendors:
+  - name: Arroz
+    link: https://www.instagram.com/arrozrva/
+    logo: images/uploads/arroz.webp
+    location: W 28th + New Kent Ave
+  - name: King of Pops
+    link: https://kingofpops.com/
+    logo: images/uploads/kop_logo.webp
+    location: W 28th + New Kent Ave
+porches:
+  - address: 2708 Hillcrest
+    performers:
+      - name: Velvet Schmelvet
+        link: https://www.facebook.com/profile.php?id=100086186450306
+        time: 5:00pm-5:50pm
+      - name: Gene and Gayla and the Fireflies
+        link: https://geneandgaylamills.com/
+        time: 6:00-6:50pm
+  - address: 703 W 28th
+    performers:
+      - name: Burke Ingraffia
+        link: https://burkeingraffia.com/videos/live-at-richmond-music-hall/
+        time: 5:30-6:20pm
+      - name: Blue Orpheus Orchestra
+        link: https://m.youtube.com/playlist?list=PLt9TE2raLtFQD8RP9FiAKugEKArV9YSEh
+        time: 6:30-7:20pm
+  - address: 2821 New Kent
+    performers:
+      - name: Soundwave Supply Co
+        link: https://www.instagram.com/soundwavesupplyco/
+        time: 6:00-6:50pm
+      - name: Crossroads Sunday Jam Players
+        link: https://www.youtube.com/watch?v=DCyC_4sKotY
+        time: "7:00-7:50pm "

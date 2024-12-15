@@ -1,0 +1,49 @@
+month: October
+date: 2024-10-20T16:00:00.000Z
+food_vendor:
+  - name: King of Pops
+    link: null
+    logo: null
+  - name: Arroz
+    link: null
+    logo: null
+image: /images/uploads/tiny-porch-concert-series-fliers-4-.jpg
+alt: Coming soon map
+food_vendors:
+  - name: Mobile 1115
+    logo: /images/uploads/5f2c426ccaf2ad9ae346b910_lndgpg-things-02.jpg
+    location: In front of the Stonewall alley between 32nd + 33rd
+    link: https://www.facebook.com/ArrozRVA/
+  - name: "King of Pops! "
+    logo: /images/uploads/kop_logo.webp
+    location: In front of the Stonewall alley between 32nd + 33rd
+    link: https://www.facebook.com/KingofPopsRichmond/
+  - name: KavaClub
+    link: https://www.kavaclub.com/
+    logo: /images/uploads/63e14e07c7224824fecd9b9c_logo.svg
+    location: Stonewall between 32nd & 33rd Streets
+porches:
+  - address: 611 W 32nd
+    performers:
+      - name: Olivia Haynes Ansari
+        link: https://www.instagram.com/oliviahaynesansari/
+        time: 4:00-4:50pm
+      - name: Hansi
+        link: https://hansi.bandcamp.com/track/fire-away-acoustic-version
+        time: 5:00-5:50pm
+  - address: 518 W 32nd
+    performers:
+      - name: "Alexandra Scott "
+        link: https://alexandrascott.bandcamp.com/music
+        time: 4:30-5:20pm
+      - name: Sam Valentine
+        link: https://open.spotify.com/album/1R8WDgVOzsapnpe5OY8MpW?si=CBZyMDSSQ--s8XuTcsxx3Q
+        time: 5:30-6:20pm
+  - address: 615 W 33rd
+    performers:
+      - name: Kailey Conner
+        link: https://www.facebook.com/Kaileymusic/
+        time: 5:00-5:50pm
+      - name: "Squeeze the Squid "
+        link: https://open.spotify.com/album/512ZGwd3FTK9lk2WdJaIEP?si=RSDD3c74QhGUq7Hm22Sx1g
+        time: 6:00-6:50pm
