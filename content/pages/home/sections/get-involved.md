@@ -4,7 +4,7 @@ title: Get Involved
 Want to host, perform, or support Tiny Porch 2025? Applications for the season are LIVE  and will close March 15th. Apply today! 
 
 * [Be a Host Porch 2025](https://docs.google.com/forms/d/e/1FAIpQLSfJmG5uEGwHw0Fr7p_xkockqj4Yc84rF-VSfby9TckBAQqO4Q/viewform)
-* [Perform Live 2025](https://docs.google.com/forms/d/1WJ2XRo32ZdQch6Mejcx94Yo7zMwYFl4bJ_rzC9QyfJU/preview)
+* [Perform Live 2025](https://docs.google.com/forms/d/e/1FAIpQLSfrawFpUYaJbDk3_JHgdgJGfBqfytTLzYURTaTLIVQtWvIk-A/viewform?usp=sharing)
 * [Food Truck 2025](https://docs.google.com/forms/d/102oEFmnf7B9ZgYWoRdp564dfF_7q9OsJ__Rab7kpUCY/preview)
 * [Sponsor Tiny Porch 2025 ](https://docs.google.com/forms/d/e/1FAIpQLSdJFBnquO909-hZ_Eylv3ohslSUt0iveuQlrzTMmJUs5YHkJw/viewform)
 * [](https://docs.google.com/forms/d/e/1FAIpQLSduwdzTH3uwgCe_8TgeNmGzr8eBGRZ9ift78aLaiBgYXZd2hw/viewform)[Volunteer/Organize](https://docs.google.com/forms/d/e/1FAIpQLScJvtlYctKvynjv23Z0ISctqyaRMYQDbSMQMLS1b0ZKbOyAvA/viewform)
