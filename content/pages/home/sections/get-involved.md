@@ -1,15 +1,11 @@
 ---
 title: Get Involved
 ---
-[2024 Tiny Porch Reflections - Complete by November 15th! ](https://docs.google.com/forms/d/e/1FAIpQLSczLVIcTnFkoLNniqc2voQGEKze78kvCCHPEckCotDv6vAIQQ/viewform)
+Want to host, perform, or support Tiny Porch 2025? Applications for the season are LIVE  and will close March 15th. Apply today! 
 
-Want to get involved? Use the links below to sign up to perform, host, or help out!
-
-*While the 2024 season has come to a close, feel free to complete any of the forms below so you'll be contacted first for the 2025 season:* 
-
-* [Sponsor Tiny Porch 2024 ](https://docs.google.com/forms/d/1giSvxwVVZFFuu2VGy5xSxBirYbTZHrf40c20e0-9UdE/edit)
-* [Be a Host Porch](https://docs.google.com/forms/d/e/1FAIpQLSeEaf3GqO6PS8fg_l8GwDpz8TMD3A64WdmSX88BWe0pcnuDPA/viewform)
-* [Perform Live](https://docs.google.com/forms/d/e/1FAIpQLScGrFt8o3vjGmtfov_NlGEwVOcDQo_THRk3P7tWTQstXXduww/viewform)
-* [Food Truck](https://docs.google.com/forms/d/e/1FAIpQLScLENjv47oBEuPWlAUqqn0zCFjeNt9EvsvOo2UkDWqni2yy8A/viewform)
-* [Sound/Audio Support](https://docs.google.com/forms/d/e/1FAIpQLSduwdzTH3uwgCe_8TgeNmGzr8eBGRZ9ift78aLaiBgYXZd2hw/viewform)
-* [Volunteer/Organize](https://docs.google.com/forms/d/e/1FAIpQLScJvtlYctKvynjv23Z0ISctqyaRMYQDbSMQMLS1b0ZKbOyAvA/viewform)
+* [Be a Host Porch 2025](https://docs.google.com/forms/d/e/1FAIpQLSfJmG5uEGwHw0Fr7p_xkockqj4Yc84rF-VSfby9TckBAQqO4Q/viewform)
+* [Perform Live 2025](https://docs.google.com/forms/d/e/1FAIpQLScGrFt8o3vjGmtfov_NlGEwVOcDQo_THRk3P7tWTQstXXduww/viewform)
+* [Food Truck 2025](https://docs.google.com/forms/d/102oEFmnf7B9ZgYWoRdp564dfF_7q9OsJ__Rab7kpUCY/preview)
+* [Sponsor Tiny Porch 2025 ](<>)
+* [](https://docs.google.com/forms/d/e/1FAIpQLSduwdzTH3uwgCe_8TgeNmGzr8eBGRZ9ift78aLaiBgYXZd2hw/viewform)[Volunteer/Organize](https://docs.google.com/forms/d/e/1FAIpQLScJvtlYctKvynjv23Z0ISctqyaRMYQDbSMQMLS1b0ZKbOyAvA/viewform)
+*   [Share why you love Tiny Porch](https://docs.google.com/forms/d/11yJ2OozcirmysB926vPpDgKp1cfAR0OKM62YgnksN-U/viewform?edit_requested=true)
