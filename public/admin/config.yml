@@ -124,6 +124,28 @@ collections:
               name: "snippet"
               widget: "string"
 
+  - name: 'testimonials'
+    label: 'Testimonials'
+    files:
+      - label: 'Testimonial Entries'
+        name: 'testimonial-entries'
+        file: 'content/pages/testimonials/testimonials.json'
+        fields:
+        - label: "Entries"
+          name: "entries"
+          widget: "list"
+          required: false
+          fields: 
+            - label: "Text"
+              name: "text"
+              widget: "string"
+            - label: "Author"
+              name: "author"
+              widget: "string"
+            - label: "Role"
+              name: "role"
+              widget: "string"
+
   - label: "Tiny Porch Dates"
     name: "tiny-porch-dates"
     folder: "content/dates"
