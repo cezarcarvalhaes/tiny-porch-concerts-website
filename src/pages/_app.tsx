@@ -25,6 +25,9 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
 		: (
 			<BaseLayout><Component {...pageProps} /></BaseLayout>
 		);
+	const title = 'Tiny Porch Concerts | Richmond, VA';
+	const description = 'Tiny Porch Concerts is a local grassroots concert series hosted in the Woodland Heights Neighborhood of Richmond, VA. Featuring 3 Host Porches, 6 incredible groups of performers, and promising an evening filled with neighborhood camaraderie, this event embodies the spirit of unity and togetherness.';
+	const imageHref = 'https://tinyporchconcerts.org/tinyporchbanner-yellow.png';
 	return (
 		<ChakraProvider theme={theme}>
 			<Head>
@@ -32,6 +35,17 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
 				<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
 				<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
 				<link rel="manifest" href="/site.webmanifest"/>
+				<title>{title}</title>
+				<meta property="og:title" content={title}/>
+				<meta name="twitter:title" content={title} />
+				<meta name={title} content="Home page" />
+				<meta name="description" content={description} />
+				<meta name="twitter:description" content={description} />
+				<meta name="og:description" content={description}/>
+				<meta name="twitter:image" content={imageHref}/>
+				<meta property="og:image" content={imageHref}/>
+				<meta property='og:type' content="website" />
+				<meta name="twitter:card" content="summary_large_image"/>
 			</Head>
 			<Script
 				defer

@@ -1,16 +1,24 @@
 import { Flex } from '@chakra-ui/react';
+import Head from 'next/head';
 import FaqView from '@sections/faq';
 import importFaqEntries, { FaqEntry } from '@util/importFaqEntries';
 
 function Faq({ entries }: { entries: FaqEntry[] }) {
 	return (
-		<Flex
-			background='brand.blue'
-			flexDirection='column'
-			flexGrow={1}
-		>
-			<FaqView entries={entries}/>
-		</Flex>
+		<>
+			<Head>
+				<title>FAQ | Tiny Porch Concerts</title>
+				<meta property="og:title" content="FAQ | Tiny Porch Concerts"/>
+				<meta name="twitter:title" content="FAQ | Tiny Porch Concerts" />
+			</Head>
+			<Flex
+				background='brand.blue'
+				flexDirection='column'
+				flexGrow={1}
+			>
+				<FaqView entries={entries}/>
+			</Flex>
+		</>
 	);
 }
 

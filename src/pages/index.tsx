@@ -28,12 +28,15 @@ function Home({ dates }: { dates: EventInfo[] }) {
 			});
 		}
 	}
+	const title = 'Tiny Porch Concerts | Richmond, VA';
 	return (
 		<>
 			<Script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
 			<Head>
-				<title>Tiny Porch Concerts</title>
-				<meta name="description" content="Home page" />
+				<title>{title}</title>
+				<meta property="og:title" content={title}/>
+				<meta name="twitter:title" content={title} />
+				<meta name={title} content="Home page" />
 			</Head>
 			<main className="">
 				<Hero />
