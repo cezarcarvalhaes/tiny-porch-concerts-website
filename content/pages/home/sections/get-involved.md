@@ -9,4 +9,4 @@ Want to host, perform, or support Tiny Porch 2025? Applications for the season a
 * [Sponsor Tiny Porch 2025 ](https://docs.google.com/forms/d/e/1FAIpQLSdJFBnquO909-hZ_Eylv3ohslSUt0iveuQlrzTMmJUs5YHkJw/viewform)
 * [](https://docs.google.com/forms/d/e/1FAIpQLSduwdzTH3uwgCe_8TgeNmGzr8eBGRZ9ift78aLaiBgYXZd2hw/viewform)[Volunteer/Organize](https://docs.google.com/forms/d/e/1FAIpQLScJvtlYctKvynjv23Z0ISctqyaRMYQDbSMQMLS1b0ZKbOyAvA/viewform)
 * [Share why you love Tiny Porch](https://docs.google.com/forms/d/11yJ2OozcirmysB926vPpDgKp1cfAR0OKM62YgnksN-U/viewform?edit_requested=true)
-* [Tiny Porch T-Shirt Design Contest-](https://docs.google.com/forms/d/e/1FAIpQLSd-DGFALk3gDO9jGpninfFFT59jSIKtR91Ep_qzZvdg9oi5yg/viewform?usp=header) Submissions due by February 28th
+* [Vote on your favorite Tiny Porch shirt design for the 2025 season! ](https://docs.google.com/forms/d/e/1FAIpQLSeF_MUug5vM6gnFlTQsC5mul-_9tnz-Fjsd8l7VzlV_jO_Y6A/viewform)
