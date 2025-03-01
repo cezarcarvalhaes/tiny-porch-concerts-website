@@ -8,6 +8,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
 	FaChevronRight, FaChevronLeft, FaPause, FaPlay,
 } from 'react-icons/fa';
+import If from '@ui/If';
 
 const MotionBox = motion(Box);
 
@@ -25,40 +26,64 @@ interface TestimonialsProps {
 const Testimonials: React.FC<TestimonialsProps> = ({ testimonials, interval = 5000 }) => {
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const [isPlaying, setIsPlaying] = useState(true);
+	const [isTransitioning, setIsTransitioning] = useState(false);
 	const intervalRef = useRef<NodeJS.Timeout | null>(null);
+
+	// Clear the interval
+	const clearCarouselInterval = useCallback(() => {
+		if (intervalRef.current) {
+			clearInterval(intervalRef.current);
+			intervalRef.current = null;
+		}
+	}, []);
 
 	// Function to set up the interval
 	const startInterval = useCallback(() => {
-		if (intervalRef.current) {
-			clearInterval(intervalRef.current);
-		}
+		clearCarouselInterval();
 
-		if (isPlaying) {
+		if (isPlaying && testimonials.length > 1) {
 			intervalRef.current = setInterval(() => {
-				setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
+				setCurrentIndex((prev) => (prev + 1) % testimonials.length);
 			}, interval);
 		}
-	}, [isPlaying, testimonials.length, interval]);
+	}, [isPlaying, testimonials.length, interval, clearCarouselInterval]);
+
+	const changeSlide = useCallback((newIndex: number) => {
+		if (isTransitioning) return; // Prevent changing during transition
+
+		setIsTransitioning(true);
+		setCurrentIndex(newIndex);
+
+		// Reset the interval
+		clearCarouselInterval();
+		if (isPlaying) {
+			// Delay starting new interval until animation completes
+			setTimeout(() => {
+				startInterval();
+				setIsTransitioning(false);
+			}, 500); // Match this with animation duration
+		} else {
+			setTimeout(() => {
+				setIsTransitioning(false);
+			}, 500);
+		}
+	}, [isTransitioning, isPlaying, clearCarouselInterval, startInterval]);
 
 	const handleNext = useCallback(() => {
-		setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
-
-		// Reset the interval to prevent jarring transitions
-		if (isPlaying) {
-			startInterval();
-		}
-	}, [testimonials.length, isPlaying, startInterval]);
+		const newIndex = (currentIndex + 1) % testimonials.length;
+		changeSlide(newIndex);
+	}, [currentIndex, testimonials.length, changeSlide]);
 
 	const handlePrev = useCallback(() => {
-		setCurrentIndex((prevIndex) => (
-			prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1
-		));
+		const newIndex = currentIndex === 0 ? testimonials.length - 1 : currentIndex - 1;
+		changeSlide(newIndex);
+	}, [currentIndex, testimonials.length, changeSlide]);
 
-		// Reset the interval to prevent jarring transitions
-		if (isPlaying) {
-			startInterval();
+	const handleDotClick = useCallback((index: number) => {
+		if (index !== currentIndex) {
+			changeSlide(index);
 		}
-	}, [testimonials.length, isPlaying, startInterval]);
+	}, [currentIndex, changeSlide]);
 
 	const togglePlayPause = useCallback(() => {
 		setIsPlaying((prev) => !prev);
@@ -66,17 +91,20 @@ const Testimonials: React.FC<TestimonialsProps> = ({ testimonials, interval = 50
 
 	// Set up interval when component mounts or when dependencies change
 	useEffect(() => {
-		startInterval();
+		// Only start the interval if playing and not transitioning
+		if (isPlaying && !isTransitioning && testimonials.length > 1) {
+			startInterval();
+		}
 
 		// Clean up on unmount or when dependencies change
-		return () => {
-			if (intervalRef.current) {
-				clearInterval(intervalRef.current);
-			}
-		};
-	}, [isPlaying, startInterval]);
+		return clearCarouselInterval;
+	}, [isPlaying, isTransitioning, testimonials.length, startInterval, clearCarouselInterval]);
 
 	const isMobile = useBreakpointValue({ base: true, md: false });
+
+	if (testimonials.length === 0) {
+		return null;
+	}
 
 	return (
 		<Box py={10} px={4}>
@@ -94,7 +122,7 @@ const Testimonials: React.FC<TestimonialsProps> = ({ testimonials, interval = 50
 						justifyContent="center"
 					>
 						<Text fontSize="xl" fontStyle="italic" mb={4}>
-              &quot;{testimonials[currentIndex].text}&quot;
+                            &quot;{testimonials[currentIndex].text}&quot;
 						</Text>
 						<Text fontWeight="bold">
 							{testimonials[currentIndex].author}
@@ -106,55 +134,55 @@ const Testimonials: React.FC<TestimonialsProps> = ({ testimonials, interval = 50
 						)}
 					</MotionBox>
 				</AnimatePresence>
+				<If condition={testimonials.length > 1}>
+					<>
+						<Flex justify="center" mt={6} gap={4}>
+							<Button
+								onClick={handlePrev}
+								aria-label="Previous testimonial"
+								size={isMobile ? 'sm' : 'md'}
+								variant="outline"
+								isDisabled={isTransitioning}
+							>
+								<Icon as={FaChevronLeft} />
+							</Button>
 
-				<Flex justify="center" mt={6} gap={4}>
-					<Button
-						onClick={handlePrev}
-						aria-label="Previous testimonial"
-						size={isMobile ? 'sm' : 'md'}
-						variant="outline"
-					>
-						<Icon as={FaChevronLeft} />
-					</Button>
+							<Button
+								onClick={togglePlayPause}
+								aria-label={isPlaying ? 'Pause' : 'Play'}
+								size={isMobile ? 'sm' : 'md'}
+								variant="outline"
+							>
+								<Icon as={isPlaying ? FaPause : FaPlay} />
+							</Button>
 
-					<Button
-						onClick={togglePlayPause}
-						aria-label={isPlaying ? 'Pause' : 'Play'}
-						size={isMobile ? 'sm' : 'md'}
-						variant="outline"
-					>
-						<Icon as={isPlaying ? FaPause : FaPlay} />
-					</Button>
+							<Button
+								onClick={handleNext}
+								aria-label="Next testimonial"
+								size={isMobile ? 'sm' : 'md'}
+								variant="outline"
+								isDisabled={isTransitioning}
+							>
+								<Icon as={FaChevronRight} />
+							</Button>
+						</Flex>
 
-					<Button
-						onClick={handleNext}
-						aria-label="Next testimonial"
-						size={isMobile ? 'sm' : 'md'}
-						variant="outline"
-					>
-						<Icon as={FaChevronRight} />
-					</Button>
-				</Flex>
-
-				<Flex justify="center" mt={4}>
-					{testimonials.map((_, index) => (
-						<Box
-							key={index}
-							h="8px"
-							w="8px"
-							borderRadius="50%"
-							bg={index === currentIndex ? 'blue.500' : 'gray.300'}
-							mx={1}
-							cursor="pointer"
-							onClick={() => {
-								setCurrentIndex(index);
-								if (isPlaying) {
-									startInterval();
-								}
-							}}
-						/>
-					))}
-				</Flex>
+						<Flex justify="center" mt={4}>
+							{testimonials.map((_, index) => (
+								<Box
+									key={index}
+									h="8px"
+									w="8px"
+									borderRadius="50%"
+									bg={index === currentIndex ? 'blue.500' : 'gray.300'}
+									mx={1}
+									cursor={isTransitioning ? 'not-allowed' : 'pointer'}
+									onClick={() => !isTransitioning && handleDotClick(index)}
+								/>
+							))}
+						</Flex>
+					</>
+				</If>
 			</Box>
 		</Box>
 	);
