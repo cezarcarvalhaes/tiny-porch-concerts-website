@@ -124,6 +124,31 @@ collections:
               name: "snippet"
               widget: "string"
 
+  - name: 'sponsors'
+    label: 'Sponsors'
+    files:
+      - label: 'Sponsor Logos'
+        name: 'sponsor-logos'
+        file: 'content/pages/sponsors/sponsors.json'
+        fields:
+        - label: "Section Heading"
+          name: "title"
+          widget: "string"
+        - label: "Sponsor Entries"
+          name: "entries"
+          widget: "list"
+          required: false
+          fields: 
+            - label: "Name"
+              name: "name"
+              widget: "string"
+            - label: "URL"
+              name: "url"
+              widget: "string"
+            - label: "Logo/Image"
+              name: "image"
+              widget: "image"
+
   - name: 'testimonials'
     label: 'Testimonials'
     files:
