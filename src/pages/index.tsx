@@ -10,6 +10,7 @@ import Calendar from '@sections/calendar';
 import GetInvolved from '@sections/get-involved';
 import TestimonialSection from '@sections/testimonials';
 import Merch from '@sections/merch';
+import Sponsors from '@sections/sponsors';
 import importDateFiles, { EventInfo } from '@util/importDateFiles';
 import RootLayout from '../layouts/RootLayout';
 
@@ -42,6 +43,7 @@ function Home({ dates }: { dates: EventInfo[] }) {
 			<main className="">
 				<Hero />
 				<Calendar dates={dates}/>
+				<Sponsors />
 				<About />
 				<TestimonialSection />
 				<GetInvolved />

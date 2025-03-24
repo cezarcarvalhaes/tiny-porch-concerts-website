@@ -1,0 +1,30 @@
+{
+  "title": "Thanks to our Sponsors",
+  "entries": [
+    {
+      "name": "River Copper Works",
+      "url": "https://www.rivercopperworks.com/",
+      "image": "/images/uploads/river-copper-works-logo.png"
+    },
+    {
+      "name": "Chesapeake Bank",
+      "url": "https://ches.bank/personal/lending/home-loans/?gclid=CjwKCAjwgdayBhBQEiwAXhMxtmyjoeTcshWrUhH76cEkMxAOc0LY3vzhYAKkEhQOUpypzdEW-2HatxoCJjIQAvD_BwE&ef_id=CjwKCAjwgdayBhBQEiwAXhMxtmyjoeTcshWrUhH76cEkMxAOc0LY3vzhYAKkEhQOUpypzdEW-2HatxoCJjIQAvD_BwE:G:s,hsa_cam=12496073917,hs_grp=118473783986,hsa_acc=4781917235&gad_source=1",
+      "image": "/images/uploads/chesapeake-bank-logo.png"
+    },
+    {
+      "name": "Studio Two Three",
+      "url": "https://www.studiotwothree.org/",
+      "image": "/images/uploads/studio-two-three-logo.png"
+    },
+    {
+      "name": "Keep Virginia Cozy",
+      "url": "https://keepvirginiacozy.org/",
+      "image": "/images/uploads/Keep_Virginia_Cozy_Logo.png"
+    },
+    {
+      "name": "Councilmember Stephanie Lynch",
+      "url": "https://www.facebook.com/electstephanielynch/",
+      "image": "/images/uploads/stephanie-lynch-banner.png"
+    }
+  ]
+}
