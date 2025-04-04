@@ -6,5 +6,15 @@ food_vendors:
   - {}
 porches:
   - address: 701 W 28th
+    performers:
+      - time: 4:00PM
+      - time: 5:00PM
   - address: 600 W 24th
+    performers:
+      - time: 4:30PM
+      - time: 5:30PM
   - address: "612 W 26th "
+    performers:
+      - time: 5:00PM
+        name: Nothing Rhymes with Orange
+      - time: 6:00PM
