@@ -2,3 +2,7 @@ month: June
 date: 2025-06-15T12:00:00.000Z
 image: /images/uploads/coming-soon-map.png
 alt: Map
+food_vendors:
+  - name: "Announced Soon! "
+porches:
+  - address: 3003 Stonewall
