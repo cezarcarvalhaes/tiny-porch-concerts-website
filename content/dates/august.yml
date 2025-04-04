@@ -2,3 +2,8 @@ month: August
 date: 2025-08-17T16:00:00.000Z
 image: /images/uploads/coming-soon-map.png
 alt: Map
+food_vendors:
+  - name: "Announced Soon! "
+porches:
+  - address: "811 W 29th "
+  - address: "2821 New Kent "
