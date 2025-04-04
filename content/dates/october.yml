@@ -2,3 +2,9 @@ month: October
 date: 2025-10-19T16:00:00.000Z
 image: /images/uploads/coming-soon-map.png
 alt: Map
+food_vendors:
+  - name: "Announced Soon! "
+porches:
+  - address: 701 W 28th
+  - address: 600 W 24th
+  - address: "612 W 26th "
