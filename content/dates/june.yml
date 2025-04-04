@@ -5,16 +5,16 @@ alt: Map
 food_vendors:
   - {}
 porches:
+  - address: 807 W 31st
+    performers:
+      - time: 5:00PM
+      - time: 6:00PM
   - address: 3003 Stonewall
     performers:
       - time: 5:30PM
       - time: 6:30PM
         name: Elizabeth Wise
         link: https://www.elizabethwise.com/
-  - address: 807 W 31st
-    performers:
-      - time: 5:00PM
-      - time: 6:00PM
   - address: 3102 Ferncliff
     performers:
       - time: 6:00PM
