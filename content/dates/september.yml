@@ -2,3 +2,9 @@ month: September
 date: 2025-09-21T16:00:00.000Z
 image: /images/uploads/coming-soon-map.png
 alt: Map
+food_vendors:
+  - name: "Announced Soon! "
+porches:
+  - address: 104 W 30th
+  - address: "304 W 29th "
+  - address: 106 W 29th
