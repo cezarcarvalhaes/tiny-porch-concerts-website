@@ -6,3 +6,20 @@ food_vendors:
   - {}
 porches:
   - address: 3003 Stonewall
+    performers:
+      - time: 5:30PM
+      - time: 6:30PM
+        name: Elizabeth Wise
+        link: https://www.elizabethwise.com/
+  - address: 807 W 31st
+    performers:
+      - time: 5:00PM
+      - time: 6:00PM
+  - address: 3102 Ferncliff
+    performers:
+      - time: 6:00PM
+        link: https://theapproachrva.bandcamp.com/music
+        name: "The Approach "
+      - time: 7:00PM
+        name: ""
+        link: ""
