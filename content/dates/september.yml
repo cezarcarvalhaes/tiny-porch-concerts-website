@@ -6,5 +6,14 @@ food_vendors:
   - name: "Announced Soon! "
 porches:
   - address: 104 W 30th
+    performers:
+      - time: 5:00PM
+      - time: 6:00PM
   - address: "304 W 29th "
+    performers:
+      - time: 5:30PM
+      - time: 6:30PM
   - address: 106 W 29th
+    performers:
+      - time: 6:00PM
+      - time: 7:00PM
