@@ -4,3 +4,16 @@ image: /images/uploads/coming-soon-map.png
 alt: Map
 food_vendors:
   - {}
+porches:
+  - address: 3200 Porter
+    performers:
+      - time: 5:00PM
+      - time: 6:00PM
+  - address: "3106 Porter "
+    performers:
+      - time: 5:30PM
+      - time: 6:30PM
+  - address: "3300 McDonough (McDonough Garden) "
+    performers:
+      - time: 6:00PM
+      - time: 7:00PM
