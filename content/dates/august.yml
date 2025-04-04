@@ -6,4 +6,14 @@ food_vendors:
   - {}
 porches:
   - address: "811 W 29th "
+    performers:
+      - time: 5:30PM
+      - time: 6:30PM
   - address: "2821 New Kent "
+    performers:
+      - time: 6:00PM
+      - time: 7:00PM
+  - address: 2803 Stonewall
+    performers:
+      - time: 5:00PM
+      - time: 6:00PM
