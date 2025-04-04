@@ -5,6 +5,10 @@ alt: Map
 food_vendors:
   - {}
 porches:
+  - address: 2803 Stonewall
+    performers:
+      - time: 5:00PM
+      - time: 6:00PM
   - address: "811 W 29th "
     performers:
       - time: 5:30PM
@@ -13,7 +17,3 @@ porches:
     performers:
       - time: 6:00PM
       - time: 7:00PM
-  - address: 2803 Stonewall
-    performers:
-      - time: 5:00PM
-      - time: 6:00PM
