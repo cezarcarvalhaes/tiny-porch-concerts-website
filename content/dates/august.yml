@@ -3,7 +3,12 @@ date: 2025-08-17T16:00:00.000Z
 image: /images/uploads/coming-soon-map.png
 alt: Map
 food_vendors:
-  - {}
+  - name: "Kaziville "
+    link: https://www.facebook.com/Kaziville/
+    logo: /images/uploads/kaziville-logo_v3_00000_edited.avif
+  - name: Anita's Frozen Cotton Candy
+    link: https://www.frozencottoncandy.com/
+    logo: /images/uploads/16af5f_d672b775731a4a4c9df6754f976e48d4.avif
 porches:
   - address: 2803 Stonewall
     performers:
