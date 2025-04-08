@@ -6,6 +6,9 @@ food_vendors:
   - link: https://www.westraysfinest.com/
     name: Westray's Finest Ice Cream
     logo: /images/uploads/download.png
+  - name: Bikini Panini
+    link: https://www.bikinipanini.com/
+    logo: /images/uploads/bikini.png
 porches:
   - address: 807 W 31st
     performers:
