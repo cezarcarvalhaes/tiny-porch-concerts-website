@@ -6,6 +6,9 @@ food_vendors:
   - link: https://www.westraysfinest.com/
     name: Westray's Finest Ice Cream
     logo: /images/uploads/download.png
+  - name: Real Ginger
+    link: https://www.realgingerfoodtruck.com/
+    logo: /images/uploads/real-ginger-logo-1-.jpeg
 porches:
   - address: 3200 Porter
     performers:
