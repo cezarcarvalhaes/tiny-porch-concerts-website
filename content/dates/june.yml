@@ -18,8 +18,8 @@ porches:
     performers:
       - time: 5:30PM
       - time: 6:30PM
-        name: Elizabeth Wise
-        link: https://www.elizabethwise.com/
+        name: ""
+        link: ""
   - address: 3102 Ferncliff
     performers:
       - time: 6:00PM
