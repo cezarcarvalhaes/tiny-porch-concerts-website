@@ -9,6 +9,8 @@ food_vendors:
   - name: Real Ginger
     link: https://www.realgingerfoodtruck.com/
     logo: /images/uploads/real-ginger-logo-1-.jpeg
+  - name: "Richmond Public Library - Westover Hills Branch "
+    logo: /images/uploads/library.png
 porches:
   - address: 3200 Porter
     performers:
