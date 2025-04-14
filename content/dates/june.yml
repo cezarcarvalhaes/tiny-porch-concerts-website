@@ -9,6 +9,8 @@ food_vendors:
   - name: Bikini Panini
     link: https://www.bikinipanini.com/
     logo: /images/uploads/bikini.png
+  - name: "Richmond Public Library - Westover Hills Branch "
+    logo: /images/uploads/library.png
 porches:
   - address: 807 W 31st
     performers:
