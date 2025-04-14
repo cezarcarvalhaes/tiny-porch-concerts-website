@@ -9,6 +9,8 @@ food_vendors:
   - link: https://www.1115foodtruck.com/
     logo: /images/uploads/5f2c426ccaf2ad9ae346b910_lndgpg-things-02.jpg
     name: 1115 Mobile Kitchen
+  - name: "Richmond Public Library - Westover Hills Branch "
+    logo: /images/uploads/library.png
 porches:
   - address: 701 W 28th
     performers:
