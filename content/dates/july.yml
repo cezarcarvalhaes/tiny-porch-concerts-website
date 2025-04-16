@@ -25,4 +25,6 @@ porches:
   - address: "3300 McDonough (McDonough Garden) "
     performers:
       - time: 6:00PM
+        name: Lagoon Music
+        link: https://www.instagram.com/lagoon__music/
       - time: 7:00PM
