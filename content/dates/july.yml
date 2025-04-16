@@ -21,6 +21,8 @@ porches:
   - address: "3106 Porter "
     performers:
       - time: 5:30PM
+        name: Jonathan Walsh
+        link: jonathanwalshmusic.com
       - time: 6:30PM
   - address: "3300 McDonough (McDonough Garden) "
     performers:
