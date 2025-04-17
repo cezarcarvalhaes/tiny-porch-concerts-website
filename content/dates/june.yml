@@ -22,8 +22,8 @@ porches:
     performers:
       - time: 5:30PM
       - time: 6:30PM
-        name: ""
-        link: ""
+        name: " Pitch'n A Fit String Band"
+        link: https://www.youtube.com/@pitchnafitstringband
   - address: 3102 Ferncliff
     performers:
       - time: 6:00PM
