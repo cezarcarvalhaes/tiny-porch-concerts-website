@@ -6,11 +6,14 @@ food_vendors:
   - link: https://www.westraysfinest.com/
     name: Westray's Finest Ice Cream
     logo: /images/uploads/download.png
+    location: "Chesterfield Ave (Near W 31st) "
   - name: Bikini Panini
     link: https://www.bikinipanini.com/
     logo: /images/uploads/bikini.png
+    location: "Chesterfield Ave (Near W 31st) "
   - name: "Richmond Public Library - Westover Hills Branch "
     logo: /images/uploads/library.png
+    location: "Chesterfield Ave (Near W 31st) "
 porches:
   - address: 807 W 31st
     performers:
