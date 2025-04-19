@@ -21,8 +21,8 @@ porches:
         name: Theocles
         link: https://www.theoclesmusic.com/
       - time: 6:00PM
-        name: Rikki Rakki
-        link: https://open.spotify.com/artist/5isU4hsWFDk0tYL7zcFVPc?si=IonolyWGRAqEd1CGcg1PCQ
+        name: ""
+        link: ""
   - address: 3003 Stonewall
     performers:
       - time: 5:30PM
