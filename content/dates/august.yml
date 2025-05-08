@@ -31,7 +31,7 @@ porches:
     performers:
       - time: 6:00PM
         name: Jack Jones
-        link: www.youtube.com/@jackjones9760
+        link: https://www.youtube.com/@jackjones9760
       - time: 7:00PM
-        link: Cleophusjames.net
+        link: https://Cleophusjames.net
         name: Cleophus James
