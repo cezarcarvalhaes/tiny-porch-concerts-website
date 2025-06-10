@@ -30,6 +30,11 @@
       "name": "Richmond Public Library ",
       "url": "https://rvalibrary.org/about/locations/westover-hills/",
       "image": "/images/uploads/library.png"
+    },
+    {
+      "image": "/images/uploads/vinylfoundry.png",
+      "name": "Vinyl Foundry",
+      "url": "https://www.thevinylfoundry.com/"
     }
   ]
 }
