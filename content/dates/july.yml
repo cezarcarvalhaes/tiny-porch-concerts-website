@@ -27,7 +27,7 @@ porches:
     performers:
       - time: 5:30PM
         name: Jonathan Walsh
-        link: jonathanwalshmusic.com
+        link: https://www.jonathanwalshmusic.com
       - time: 6:30PM
         link: https://open.spotify.com/artist/5isU4hsWFDk0tYL7zcFVPc?si=IonolyWGRAqEd1CGcg1PCQ
         name: "Rikki Rakki "
