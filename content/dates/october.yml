@@ -15,12 +15,14 @@ porches:
   - address: 701 W 28th
     performers:
       - time: 4:00PM
+        name: Theocles
+        link: https://www.theoclesmusic.com/
       - time: 5:00PM
   - address: 600 W 24th
     performers:
       - time: 4:30PM
-        name: Theocles
-        link: https://www.theoclesmusic.com/
+        name: ""
+        link: ""
       - time: 5:30PM
   - address: "612 W 26th "
     performers:
