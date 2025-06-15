@@ -15,15 +15,15 @@ food_vendors:
     logo: /images/uploads/library.png
     location: "Chesterfield Ave (Near W 31st) "
 porches:
-  - address: 807 W 31st
+  - address: 807 W 31st- Canceled due to weather
     performers:
       - time: 5:00PM
         name: Theocles
         link: https://www.theoclesmusic.com/
       - time: 6:00PM
-        name: Isaac Friend
+        name: "Isaac Friend "
         link: https://open.spotify.com/artist/78OmkHnMd3nx6nEqICiIpM?si=MYJNSutLTk-HczWLJ6v5xw
-  - address: 3003 Stonewall
+  - address: 3003 Stonewall - Canceled due to weather
     performers:
       - time: 5:30PM
         name: Blue Orpheus Orchestra
@@ -31,7 +31,7 @@ porches:
       - time: 6:30PM
         name: " Pitch'n A Fit String Band"
         link: https://www.youtube.com/@pitchnafitstringband
-  - address: 3102 Ferncliff
+  - address: 3102 Ferncliff - Canceled due to weather
     performers:
       - time: 6:00PM
         link: https://theapproachrva.bandcamp.com/music
