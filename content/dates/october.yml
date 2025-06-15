@@ -19,6 +19,8 @@ porches:
   - address: 600 W 24th
     performers:
       - time: 4:30PM
+        name: Theocles
+        link: https://www.theoclesmusic.com/
       - time: 5:30PM
   - address: "612 W 26th "
     performers:
