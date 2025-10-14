@@ -3,10 +3,8 @@ title: Get Involved
 ---
 * [Reflect on the 2025 Season + Share input on dates for the 2026 Season! ](https://forms.gle/dTDmSuzRry8GyX2Z9)
 * [Sponsor Tiny Porch ](https://docs.google.com/forms/d/e/1FAIpQLSdJFBnquO909-hZ_Eylv3ohslSUt0iveuQlrzTMmJUs5YHkJw/viewform)
-* [](https://docs.google.com/forms/d/e/1FAIpQLSdJFBnquO909-hZ_Eylv3ohslSUt0iveuQlrzTMmJUs5YHkJw/viewform)[](<>)[Volunteer/Organize Tiny Porch](<>)
-* [Share why you love Tiny Porch](<>)
-
-  **Want to host, perform, or support Tiny Porch 2026?** *Applications for 2026 will open this winter, but feel free to complete a 2025 application (below) to get an email as soon as 2026 applications open!* 
+* [Join the Tiny Porch Planning Team](https://forms.gle/Ejzt4TsKRQ6edVab6)[](<>)[](<>)
+* **Want to host, perform, or support Tiny Porch 2026?** *Applications for 2026 will open this winter, but feel free to complete a 2025 application (below) to get an email as soon as 2026 applications open!* 
 
   * [Be a Host Porch 2025  ](https://docs.google.com/forms/d/e/1FAIpQLSfJmG5uEGwHw0Fr7p_xkockqj4Yc84rF-VSfby9TckBAQqO4Q/viewform)
   * [Perform Live 2025  ](https://docs.google.com/forms/d/e/1FAIpQLSfrawFpUYaJbDk3_JHgdgJGfBqfytTLzYURTaTLIVQtWvIk-A/viewform?usp=sharing)
