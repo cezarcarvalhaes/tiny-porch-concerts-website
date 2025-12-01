@@ -1,37 +1,4 @@
 month: August
-date: 2025-08-17T16:00:00.000Z
-image: /images/uploads/august-2025.png
+date: 2026-08-16T17:00:00.000-04:00
+image: /images/uploads/save-the-date.png
 alt: Map
-food_vendors:
-  - name: "Kaziville "
-    link: https://www.facebook.com/Kaziville/
-    logo: /images/uploads/kaziville-logo_v3_00000_edited.avif
-    location: "W 29th between New Kent + Stonewall "
-  - name: Anita's Frozen Cotton Candy
-    link: https://www.frozencottoncandy.com/
-    logo: /images/uploads/16af5f_d672b775731a4a4c9df6754f976e48d4.avif
-    location: "W 29th between New Kent + Stonewall "
-porches:
-  - address: 2803 Stonewall
-    performers:
-      - time: 5:00PM
-        name: Stone Wall String Band Jam
-      - time: 6:00PM
-        name: Moossa
-        link: " https://moossa1.bandcamp.com/album/crack-in-the-door"
-  - address: "811 W 29th "
-    performers:
-      - time: 5:30PM
-        name: "Near Miss "
-        link: https://soundcloud.com/near-miss-196427775
-      - time: 6:30PM
-        name: Killer Whale
-        link: https://www.instagram.com/thebandkillerwhale
-  - address: "2821 New Kent "
-    performers:
-      - time: 6:00PM
-        name: Jack Jones
-        link: https://www.youtube.com/@jackjones9760
-      - time: 7:00PM
-        link: https://Cleophusjames.net
-        name: Cleophus James

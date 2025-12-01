@@ -1,41 +1,4 @@
-month: July
-date: 2025-07-20T16:00:00.000Z
-image: /images/uploads/july-.png
+month: "July "
+date: 2026-07-19T17:00:00.000-04:00
+image: /images/uploads/save-the-date.png
 alt: Map
-food_vendors:
-  - link: https://www.westraysfinest.com/
-    name: Westray's Finest Ice Cream
-    logo: /images/uploads/download.png
-    location: "In front of Redemption Church's Playground "
-  - name: Real Ginger
-    link: https://www.realgingerfoodtruck.com/
-    logo: /images/uploads/real-ginger-logo-1-.jpeg
-    location: "In front of Redemption Church's Playground "
-  - name: "Richmond Public Library - Westover Hills Branch "
-    logo: /images/uploads/library.png
-    location: "In front of Redemption Church's Playground "
-porches:
-  - address: 3200 Porter
-    performers:
-      - time: 5:00PM
-        name: Jaycie Cuprill
-        link: https://www.instagram.com/jayciemusic?igsh=ZXoweTR4OTdocWhv
-      - time: 6:00PM
-        name: THE FOLLY
-        link: https://www.instagram.com/_thefolly_/
-  - address: "3106 Porter "
-    performers:
-      - time: 5:30PM
-        name: Jonathan Walsh
-        link: https://www.jonathanwalshmusic.com
-      - time: 6:30PM
-        link: https://open.spotify.com/artist/5isU4hsWFDk0tYL7zcFVPc?si=IonolyWGRAqEd1CGcg1PCQ
-        name: "Rikki Rakki "
-  - address: "3300 McDonough (McDonough Garden) "
-    performers:
-      - time: 6:00PM
-        name: Lagoon Music
-        link: https://www.instagram.com/lagoon__music/
-      - time: 7:00PM
-        name: Keely and the Tea Lights
-        link: http://keelyburnmusic.bandcamp.com/

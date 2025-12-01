@@ -1,0 +1,41 @@
+month: October
+date: 2025-10-19T16:00:00.000Z
+image: /images/uploads/october.png
+alt: Map
+food_vendors:
+  - link: https://www.westraysfinest.com/
+    name: Westray's Finest Ice Cream
+    logo: /images/uploads/download.png
+    location: W 25th & Springhill
+  - link: https://www.1115foodtruck.com/
+    logo: /images/uploads/5f2c426ccaf2ad9ae346b910_lndgpg-things-02.jpg
+    name: 1115 Mobile Kitchen
+    location: "W 25th & Springhill "
+  - name: "Richmond Public Library - Westover Hills Branch "
+    logo: /images/uploads/library.png
+    location: "W 25th & Springhill "
+porches:
+  - address: 701 W 28th
+    performers:
+      - time: 4:00PM
+        name: Theocles
+        link: https://www.theoclesmusic.com/
+      - time: 5:00PM
+        name: The Approach
+        link: https://theapproachrva.bandcamp.com/music
+  - address: 600 W 24th
+    performers:
+      - time: 4:30PM
+        name: Villages
+        link: https://open.spotify.com/artist/1sL3wkRdxgLjEzKQyNPyut?si=2FyIBi1XStGV-uJXKlobKg
+      - time: 5:30PM
+        name: "Blue Orpheus Orchestra "
+        link: https://www.youtube.com/watch?v=rmUNe6vwd0A&t=49s
+  - address: "612 W 26th "
+    performers:
+      - time: 5:00PM
+        name: "Isaac Friend "
+        link: https://open.spotify.com/artist/78OmkHnMd3nx6nEqICiIpM?si=MYJNSutLTk-HczWLJ6v5xw
+      - time: 6:00PM
+        name: "Mango Thieves "
+        link: https://youtu.be/sXD_ZIJMtEo?si=zf1VQ8Rr4ZrFyseu

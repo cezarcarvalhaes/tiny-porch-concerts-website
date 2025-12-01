@@ -1,36 +1,4 @@
 month: September
-date: 2025-09-21T16:00:00.000Z
-image: /images/uploads/september2.png
+date: 2026-09-20T16:00:00.000-04:00
+image: /images/uploads/save-the-date.png
 alt: Map
-food_vendors:
-  - name: Anita's Frozen Cotton Candy
-    link: https://www.frozencottoncandy.com/
-    logo: /images/uploads/16af5f_d672b775731a4a4c9df6754f976e48d4.avif
-    location: "Fonticello Park (W 29th by the playground) "
-  - name: "Richmond Public Library - Westover Hills Branch "
-    logo: /images/uploads/library.png
-    location: "Fonticello Park (W 29th by the playground) "
-porches:
-  - address: 104 W 30th
-    performers:
-      - time: 4:00PM
-        name: Heavy Shtetl
-        link: https://www.facebook.com/heavyshtetl
-      - time: 5:00PM
-        name: Shotgun Princess
-        link: https://shotgunprincess.bandcamp.com
-  - address: "304 W 29th "
-    performers:
-      - time: 4:30PM
-        name: Andrew Rohlk
-        link: https://andrewrohlkmusic.com/
-      - time: 5:30PM
-        name: "Woodland Heights Residents Showcase "
-  - address: 106 W 29th
-    performers:
-      - time: 5:00PM
-        name: Alex J Dimas
-        link: https://open.spotify.com/artist/482HOmnvoGEtdEfCAL1LyZ?si=zpDz2h8TRFa-BiH0gFf_Aw
-      - time: 6:00PM
-        name: Hot Seats
-        link: http://www.thehotseatsrva.com

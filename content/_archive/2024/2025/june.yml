@@ -1,0 +1,41 @@
+month: June- Canceled due to Weather!
+date: 2025-06-15T12:00:00.000Z
+image: /images/uploads/screenshot-2025-04-21-161350.png
+alt: Map
+food_vendors:
+  - link: https://www.westraysfinest.com/
+    name: Westray's Finest Ice Cream
+    logo: /images/uploads/download.png
+    location: "Chesterfield Ave (Near W 31st) "
+  - name: Bikini Panini
+    link: https://www.bikinipanini.com/
+    logo: /images/uploads/bikini.png
+    location: "Chesterfield Ave (Near W 31st) "
+  - name: "Richmond Public Library - Westover Hills Branch "
+    logo: /images/uploads/library.png
+    location: "Chesterfield Ave (Near W 31st) "
+porches:
+  - address: 807 W 31st- Canceled due to weather
+    performers:
+      - time: 5:00PM
+        name: Theocles
+        link: https://www.theoclesmusic.com/
+      - time: 6:00PM
+        name: "Isaac Friend "
+        link: https://open.spotify.com/artist/78OmkHnMd3nx6nEqICiIpM?si=MYJNSutLTk-HczWLJ6v5xw
+  - address: 3003 Stonewall - Canceled due to weather
+    performers:
+      - time: 5:30PM
+        name: Blue Orpheus Orchestra
+        link: https://www.youtube.com/watch?v=rmUNe6vwd0A&t=49s
+      - time: 6:30PM
+        name: " Pitch'n A Fit String Band"
+        link: https://www.youtube.com/@pitchnafitstringband
+  - address: 3102 Ferncliff - Canceled due to weather
+    performers:
+      - time: 6:00PM
+        link: https://theapproachrva.bandcamp.com/music
+        name: "The Approach "
+      - time: 7:00PM
+        name: VILLAGES
+        link: https://open.spotify.com/artist/1sL3wkRdxgLjEzKQyNPyut?si=2FyIBi1XStGV-uJXKlobKg
