@@ -12,11 +12,6 @@
       "image": "/images/uploads/studio-two-three-logo.png"
     },
     {
-      "name": "Keep Virginia Cozy",
-      "url": "https://keepvirginiacozy.org/",
-      "image": "/images/uploads/Keep_Virginia_Cozy_Logo.png"
-    },
-    {
       "name": "Councilmember Stephanie Lynch",
       "url": "https://www.facebook.com/electstephanielynch/",
       "image": "/images/uploads/stephanie-lynch-banner.png"
@@ -32,11 +27,6 @@
       "image": "/images/uploads/library.png"
     },
     {
-      "image": "/images/uploads/vinylfoundry.png",
-      "name": "Vinyl Foundry",
-      "url": "https://www.thevinylfoundry.com/"
-    },
-    {
       "name": "CEDAR Center for Eating & Anxiety Disorders",
       "url": "https://cedarvirginia.com/?gad_source=1&gad_campaignid=22200256234&gbraid=0AAAAA-CU0ZKkgm1MnyZzXg34e3DKg0wAn&gclid=Cj0KCQjw5JXFBhCrARIsAL1ckPtpiNR_gzQIjxYXwBxj01WXylF93WqrmXl0NzNjRA9kCzY0LnTvaswaAg9KEALw_wcB",
       "image": "/images/uploads/download.jpg"
@@ -45,6 +35,11 @@
       "name": "Dave Parrish Photography",
       "url": "https://www.daveparrishphotography.com/",
       "image": "/images/uploads/download-1-.jpg"
+    },
+    {
+      "url": "https://sarahabubaker.com/",
+      "name": "Councilmember Sarah Abubaker ",
+      "image": "/images/uploads/sadownload.png"
     }
   ]
 }
