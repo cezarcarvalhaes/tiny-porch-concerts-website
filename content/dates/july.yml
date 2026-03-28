@@ -6,3 +6,6 @@ food_vendors:
   - name: Good Vices
     link: https://goodvicesices.com/menu
     logo: /images/uploads/good-vices.png
+  - name: Cocina Calle
+    link: https://cocinacalle.com/
+    logo: /images/uploads/cc-logo-web.png
