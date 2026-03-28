@@ -2,3 +2,7 @@ month: September
 date: 2026-09-20T16:00:00.000-04:00
 image: /images/uploads/save-the-date.png
 alt: Map
+food_vendors:
+  - link: https://www.westraysfinest.com/
+    name: "Westray's Finest Ice Cream "
+    logo: /images/uploads/download.png
