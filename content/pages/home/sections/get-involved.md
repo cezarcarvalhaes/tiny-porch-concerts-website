@@ -1,16 +1,15 @@
 ---
 title: Get Involved
 ---
-### 
-[Vote on the 2026 Tiny Porch Merch Design ](https://forms.gle/9beQgppWL42fpWjB8)
+[Vote on the 2026 Tiny Porch Merch Design <Voting Closes April 15, 2026>](https://forms.gle/9beQgppWL42fpWjB8)
 
 [Sponsor Tiny Porch ](<>)
 
 [Join the Tiny Porch Planning Team ](<>)
 
--------------
+- - -
 
-### Applications closed to host/perform/design/feed Tiny Porch 2026?
+### Applications are now closed to host/perform/design/feed Tiny Porch 2026, be sure to apply in 2027!
 
 * [Be a Host Porch 2026  ](https://forms.gle/eU2G34o4G9bBgvLbA)
 * [Perform Live 2026  ](https://docs.google.com/forms/d/e/1FAIpQLSfN0lAVKKjA-GGJytI-d94yM3v0F06cZazA3ump8bOzXsanXA/viewform)
