@@ -9,3 +9,7 @@ food_vendors:
   - name: Cocina Calle
     link: https://cocinacalle.com/
     logo: /images/uploads/cc-logo-web.png
+porches:
+  - {}
+  - {}
+  - {}
