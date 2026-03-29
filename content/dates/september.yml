@@ -6,3 +6,7 @@ food_vendors:
   - link: https://www.westraysfinest.com/
     name: "Westray's Finest Ice Cream "
     logo: /images/uploads/download.png
+porches:
+  - {}
+  - {}
+  - {}
