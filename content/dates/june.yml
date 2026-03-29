@@ -6,6 +6,9 @@ food_vendors:
   - name: "Westray's Finest Ice Cream "
     logo: /images/uploads/download.png
     link: https://www.westraysfinest.com/
+  - name: Latin Quarter
+    link: https://latinquarterrva.com/
+    logo: /images/uploads/lq.png
 porches:
   - {}
   - {}
