@@ -6,3 +6,7 @@ food_vendors:
   - name: Timber Pizza Co
     logo: /images/uploads/timber.png
     link: https://www.timberpizza.com/richmond-mobile-truck
+porches:
+  - {}
+  - {}
+  - {}
