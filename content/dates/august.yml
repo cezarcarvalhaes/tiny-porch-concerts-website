@@ -6,6 +6,9 @@ food_vendors:
   - name: Timber Pizza Co
     logo: /images/uploads/timber.png
     link: https://www.timberpizza.com/richmond-mobile-truck
+  - name: Sno Yummy
+    link: https://www.facebook.com/snoyummyllc/
+    logo: /images/uploads/sno-yummy.jpg
 porches:
   - {}
   - {}
