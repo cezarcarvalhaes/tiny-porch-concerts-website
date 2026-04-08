@@ -11,5 +11,8 @@ food_vendors:
     logo: /images/uploads/lq.png
 porches:
   - {}
-  - {}
+  - address: 605 W 26th
+    performers:
+      - time: 5:30-6:20
+      - time: 6:30-7:20
   - {}
