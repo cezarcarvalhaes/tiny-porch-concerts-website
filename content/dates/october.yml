@@ -15,4 +15,7 @@ porches:
       - time: "4:00-4:50pm "
       - time: "5:00-5:50pm "
   - {}
-  - {}
+  - address: "909 W 32nd "
+    performers:
+      - time: 5:00-5:50pm
+      - time: 6:00-6:50PM
