@@ -3,9 +3,9 @@ title: Get Involved
 ---
 [Vote on the 2026 Tiny Porch Merch Design <Voting Closes April 15, 2026>](https://forms.gle/9beQgppWL42fpWjB8)
 
-[Sponsor Tiny Porch ](<>)
+[Sponsor Tiny Porch ](https://docs.google.com/forms/d/e/1FAIpQLSdJFBnquO909-hZ_Eylv3ohslSUt0iveuQlrzTMmJUs5YHkJw/viewform)
 
-[Join the Tiny Porch Planning Team ](<>)
+[Join the Tiny Porch Planning Team ](https://docs.google.com/forms/d/e/1FAIpQLScJvtlYctKvynjv23Z0ISctqyaRMYQDbSMQMLS1b0ZKbOyAvA/viewform)
 
 - - -
 
