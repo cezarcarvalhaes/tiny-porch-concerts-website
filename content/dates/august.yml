@@ -10,6 +10,9 @@ food_vendors:
     link: https://www.facebook.com/snoyummyllc/
     logo: /images/uploads/sno-yummy.jpg
 porches:
-  - {}
+  - address: 704 W 33rd
+    performers:
+      - time: 5:00-5:50
+      - time: 6:00-6:50
   - {}
   - {}
