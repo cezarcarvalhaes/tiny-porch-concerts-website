@@ -10,6 +10,9 @@ food_vendors:
     link: https://mobile-yumyum.com/
     logo: /images/uploads/yum-yum.png
 porches:
-  - {}
+  - address: "112 W 29th "
+    performers:
+      - time: 4:00-4:50
+      - time: 5:00-5:50
   - {}
   - {}
