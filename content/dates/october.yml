@@ -10,6 +10,9 @@ food_vendors:
     logo: /images/uploads/8ig7bunygads2tenf3wmy3_w.png
     link: https://www.facebook.com/people/Sippin-Spot/61556322435975/?mibextid=ZbWKwL
 porches:
-  - {}
+  - address: 807 W 31st
+    performers:
+      - time: "4:00-4:50pm "
+      - time: "5:00-5:50pm "
   - {}
   - {}
