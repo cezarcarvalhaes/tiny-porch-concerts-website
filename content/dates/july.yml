@@ -10,6 +10,12 @@ food_vendors:
     link: https://cocinacalle.com/
     logo: /images/uploads/cc-logo-web.png
 porches:
-  - {}
-  - {}
+  - address: 700 W 25th
+    performers:
+      - time: "5:00-5:50pm "
+      - time: "6:00-6:50pm "
+  - address: "514 W 25th "
+    performers:
+      - time: "5:30-6:20pm "
+      - time: "6:30-7:20pm "
   - {}
