@@ -14,7 +14,10 @@ porches:
     performers:
       - time: "4:00-4:50pm "
       - time: "5:00-5:50pm "
-  - {}
+  - address: 912 W 30th
+    performers:
+      - time: 4:30-5:20pm
+      - time: 5:30-6:20pm
   - address: "909 W 32nd "
     performers:
       - time: 5:00-5:50pm
