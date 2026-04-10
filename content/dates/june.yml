@@ -10,7 +10,10 @@ food_vendors:
     link: https://latinquarterrva.com/
     logo: /images/uploads/lq.png
 porches:
-  - {}
+  - address: 811 W 28th
+    performers:
+      - time: 5:00-5:50
+      - time: 6:00-6:50
   - address: 605 W 26th
     performers:
       - time: 5:30-6:20
