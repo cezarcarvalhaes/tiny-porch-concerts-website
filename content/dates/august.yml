@@ -18,4 +18,7 @@ porches:
     performers:
       - time: 5:30-6:20
       - time: 6:30-7:20
-  - {}
+  - address: 606 W 32nd
+    performers:
+      - time: 6:00-6:50pm
+      - time: 7:00-7:50pm
