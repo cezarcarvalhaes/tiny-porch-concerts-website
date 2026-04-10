@@ -18,4 +18,7 @@ porches:
     performers:
       - time: "5:30-6:20pm "
       - time: "6:30-7:20pm "
-  - {}
+  - address: 611 W 24th
+    performers:
+      - time: 6:00-6:50pm
+      - time: 7:00-7:50pm
