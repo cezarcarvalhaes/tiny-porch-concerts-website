@@ -19,7 +19,11 @@ porches:
   - address: "514 W 25th "
     performers:
       - time: "5:30-6:20pm "
+        name: "The Wellbillies "
+        link: https://www.facebook.com/share/1GUzZt9ZYL/?mibextid=wwXIfr
       - time: "6:30-7:20pm "
+        name: "Erin Lunsford "
+        link: https://open.spotify.com/artist/6VQmzs195HRiyaBhz9JMlv?si=-F__0UiUQ4abksveGbNt8w
   - address: 611 W 24th
     performers:
       - time: 6:00-6:50pm
