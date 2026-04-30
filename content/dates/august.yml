@@ -21,6 +21,8 @@ porches:
   - address: 3003 Stonewall
     performers:
       - time: 5:30-6:20
+        name: "Woody Woodworth "
+        link: woodywoodworth.com/epk
       - time: 6:30-7:20
   - address: 606 W 32nd
     performers:
