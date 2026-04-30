@@ -21,6 +21,8 @@ porches:
   - address: "606 W 28th "
     performers:
       - time: 6:00-6:50
+        name: "The Blistered Hearts "
+        link: https://www.facebook.com/theblisteredheartsband/
       - time: 7:00-7:50
         name: "Painted World "
         link: https://www.instagram.com/painted__world/
