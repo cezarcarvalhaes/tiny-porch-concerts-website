@@ -6,9 +6,11 @@ food_vendors:
   - name: Timber Pizza Co
     logo: /images/uploads/timber.png
     link: https://www.timberpizza.com/richmond-mobile-truck
+    location: Stonewall Ave between W 31st + W 32nd
   - name: Sno Yummy
     link: https://www.facebook.com/snoyummyllc/
     logo: /images/uploads/sno-yummy.jpg
+    location: Stonewall Ave between W 31st + W 32nd
 porches:
   - address: 704 W 33rd
     performers:
