@@ -6,9 +6,11 @@ food_vendors:
   - link: https://www.westraysfinest.com/
     name: "Westray's Finest Ice Cream "
     logo: /images/uploads/download.png
+    location: Perry St between W 29th + W 30th
   - name: "Mobile Yum Yum "
     link: https://mobile-yumyum.com/
     logo: /images/uploads/yum-yum.png
+    location: Perry St between W 29th + W 30th
 porches:
   - address: "112 W 29th "
     performers:
