@@ -6,9 +6,11 @@ food_vendors:
   - name: "Westray's Finest Ice Cream "
     logo: /images/uploads/download.png
     link: https://www.westraysfinest.com/
+    location: Stonewall Ave between W 27th + W 26th
   - name: Latin Quarter
     link: https://latinquarterrva.com/
     logo: /images/uploads/lq.png
+    location: Stonewall Ave between W 27th + W 26th
 porches:
   - address: 811 W 28th
     performers:
