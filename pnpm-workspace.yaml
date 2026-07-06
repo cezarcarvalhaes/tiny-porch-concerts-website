@@ -1,0 +1,5 @@
+# esbuild is a dev-only transitive dep of @chakra-ui/cli; it isn't used by
+# `next build`, so we skip its native-binary postinstall. This keeps
+# `pnpm install` from erroring on the unapproved build script (CI/Netlify).
+allowBuilds:
+  esbuild: false
