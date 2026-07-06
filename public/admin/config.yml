@@ -4,172 +4,172 @@ backend:
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
 collections:
-  - name: 'pages'
-    label: 'Home Page Sections'
+  - name: "pages"
+    label: "Home Page Sections"
     files:
-      - label: 'About'
-        name: 'about'
-        file: 'content/pages/home/sections/about.md'
+      - label: "About"
+        name: "about"
+        file: "content/pages/home/sections/about.md"
         fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Get Involved'
-        name: 'get-involved'
-        file: 'content/pages/home/sections/get-involved.md'
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Get Involved"
+        name: "get-involved"
+        file: "content/pages/home/sections/get-involved.md"
         fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
 
-  - name: 'merch'
-    label: 'Merch Section'
+  - name: "merch"
+    label: "Merch Section"
     files:
-      - label: 'Top Section'
-        name: 'top-section'
-        file: 'content/pages/merch/top-section.md'
+      - label: "Top Section"
+        name: "top-section"
+        file: "content/pages/merch/top-section.md"
         fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Merch For Sale'
-        name: 'merch-items'
-        file: 'content/pages/merch/items.json'
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Merch For Sale"
+        name: "merch-items"
+        file: "content/pages/merch/items.json"
         fields:
-        - label: "Available Merch"
-          name: "items"
-          widget: "list"
-          required: false
-          fields: 
-            - label: "Title"
-              name: "title"
-              widget: "string"
-            - label: "Image"
-              name: "image"
-              widget: "image"
-              required: false
-            - label: "Alt Text for Image"
-              name: "imageAlt"
-              required: false
-              widget: "string"
-            - label: "Link"
-              name: "link"
-              widget: "string"
-              required: false
-            - label: "Hide 'Order Now' Button"
-              name: "disabled"
-              widget: "boolean"
-              required: false
-            - label: "Description"
-              name: "description"
-              widget: "markdown"
-              required: false
+          - label: "Available Merch"
+            name: "items"
+            widget: "list"
+            required: false
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                required: false
+              - label: "Alt Text for Image"
+                name: "imageAlt"
+                required: false
+                widget: "string"
+              - label: "Link"
+                name: "link"
+                widget: "string"
+                required: false
+              - label: "Hide 'Order Now' Button"
+                name: "disabled"
+                widget: "boolean"
+                required: false
+              - label: "Description"
+                name: "description"
+                widget: "markdown"
+                required: false
 
-  - name: 'faq'
-    label: 'FAQ'
+  - name: "faq"
+    label: "FAQ"
     files:
-      - label: 'Top Section'
-        name: 'top-section'
-        file: 'content/pages/faq/top-section.md'
+      - label: "Top Section"
+        name: "top-section"
+        file: "content/pages/faq/top-section.md"
         fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'FAQ Entries'
-        name: 'faq-entries'
-        file: 'content/pages/faq/entries.yml'
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "FAQ Entries"
+        name: "faq-entries"
+        file: "content/pages/faq/entries.yml"
         fields:
-        - label: "FAQ Entries"
-          name: "entries"
-          widget: "list"
-          required: false
-          fields: 
-            - label: "Question"
-              name: "question"
-              widget: "string"
-            - label: "Answer"
-              name: "answer"
-              widget: "markdown"
+          - label: "FAQ Entries"
+            name: "entries"
+            widget: "list"
+            required: false
+            fields:
+              - label: "Question"
+                name: "question"
+                widget: "string"
+              - label: "Answer"
+                name: "answer"
+                widget: "markdown"
 
-  - name: 'press'
-    label: 'Press'
+  - name: "press"
+    label: "Press"
     files:
-      - label: 'Top Section'
-        name: 'top-section'
-        file: 'content/pages/press/top-section.md'
+      - label: "Top Section"
+        name: "top-section"
+        file: "content/pages/press/top-section.md"
         fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Press Links'
-        name: 'press-entries'
-        file: 'content/pages/press/media-links.json'
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Press Links"
+        name: "press-entries"
+        file: "content/pages/press/media-links.json"
         fields:
-        - label: "Press Entries"
-          name: "entries"
-          widget: "list"
-          required: false
-          fields: 
-            - label: "Title"
-              name: "title"
-              widget: "string"
-            - label: "Publisher"
-              name: "publisher"
-              widget: "string"
-            - label: "Date"
-              name: "date"
-              widget: "datetime"
-            - label: "URL"
-              name: "url"
-              widget: "string"
-            - label: "Publication Logo/Image"
-              name: "image"
-              widget: "image"
-            - label: "snippet"
-              name: "snippet"
-              widget: "string"
+          - label: "Press Entries"
+            name: "entries"
+            widget: "list"
+            required: false
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Publisher"
+                name: "publisher"
+                widget: "string"
+              - label: "Date"
+                name: "date"
+                widget: "datetime"
+              - label: "URL"
+                name: "url"
+                widget: "string"
+              - label: "Publication Logo/Image"
+                name: "image"
+                widget: "image"
+              - label: "snippet"
+                name: "snippet"
+                widget: "string"
 
-  - name: 'sponsors'
-    label: 'Sponsors'
+  - name: "sponsors"
+    label: "Sponsors"
     files:
-      - label: 'Sponsor Logos'
-        name: 'sponsor-logos'
-        file: 'content/pages/sponsors/sponsors.json'
+      - label: "Sponsor Logos"
+        name: "sponsor-logos"
+        file: "content/pages/sponsors/sponsors.json"
         fields:
-        - label: "Section Heading"
-          name: "title"
-          widget: "string"
-        - label: "Sponsor Entries"
-          name: "entries"
-          widget: "list"
-          required: false
-          fields: 
-            - label: "Name"
-              name: "name"
-              widget: "string"
-            - label: "URL"
-              name: "url"
-              widget: "string"
-            - label: "Logo/Image"
-              name: "image"
-              widget: "image"
+          - label: "Section Heading"
+            name: "title"
+            widget: "string"
+          - label: "Sponsor Entries"
+            name: "entries"
+            widget: "list"
+            required: false
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+              - label: "URL"
+                name: "url"
+                widget: "string"
+              - label: "Logo/Image"
+                name: "image"
+                widget: "image"
 
-  - name: 'testimonials'
-    label: 'Testimonials'
+  - name: "testimonials"
+    label: "Testimonials"
     files:
-      - label: 'Testimonial Entries'
-        name: 'testimonial-entries'
-        file: 'content/pages/testimonials/testimonials.json'
+      - label: "Testimonial Entries"
+        name: "testimonial-entries"
+        file: "content/pages/testimonials/testimonials.json"
         fields:
-        - label: "Entries"
-          name: "entries"
-          widget: "list"
-          required: false
-          fields: 
-            - label: "Text"
-              name: "text"
-              widget: "string"
-            - label: "Author"
-              name: "author"
-              widget: "string"
-            - label: "Role"
-              name: "role"
-              widget: "string"
+          - label: "Entries"
+            name: "entries"
+            widget: "list"
+            required: false
+            fields:
+              - label: "Text"
+                name: "text"
+                widget: "string"
+              - label: "Author"
+                name: "author"
+                widget: "string"
+              - label: "Role"
+                name: "role"
+                widget: "string"
 
   - label: "Tiny Porch Dates"
     name: "tiny-porch-dates"
@@ -180,7 +180,7 @@ collections:
     create: true
     fields:
       - label: "Month"
-        name: "month" 
+        name: "month"
         widget: "string"
         required: false
       - label: "Date"
@@ -197,16 +197,16 @@ collections:
         name: "food_vendors"
         widget: "list"
         required: false
-        fields: 
-          - {label: "Name", name: "name", widget: "string", required: false}
-          - {label: "Link", name: "link", widget: "string", required: false}
-          - {label: "Logo", name: "logo", widget: "image", required: false}
-          - {label: "Location", name: "location", widget: "string", required: false}
+        fields:
+          - { label: "Name", name: "name", widget: "string", required: false }
+          - { label: "Link", name: "link", widget: "string", required: false }
+          - { label: "Logo", name: "logo", widget: "image", required: false }
+          - { label: "Location", name: "location", widget: "string", required: false }
       - label: "Porches"
         name: "porches"
         widget: "list"
         required: false
-        fields: 
+        fields:
           - label: "Address"
             name: "address"
             widget: "string"
@@ -215,7 +215,8 @@ collections:
             name: "performers"
             widget: "list"
             required: false
-            fields: 
-            - {label: "Name", name: "name", widget: "string", required: false}
-            - {label: "Link", name: "link", widget: "string", required: false}
-            - {label: "Show Time", name: "time", widget: "string", required: false}
+            fields:
+              - { label: "Name", name: "name", widget: "string", required: false }
+              - { label: "Link", name: "link", widget: "string", required: false }
+              - { label: "Show Time", name: "time", widget: "string", required: false }
+              - { label: "Venmo/Cash App Link", name: "venmo_link", widget: "string", required: false }
