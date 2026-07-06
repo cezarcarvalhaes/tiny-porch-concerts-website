@@ -20,6 +20,7 @@ porches:
       - time: "6:00-6:50pm "
         name: "Rikki Rakki "
         link: https://rikkirakki.bandcamp.com/album/sing-cicadas
+        venmo_link: https://account.venmo.com/u/Rikki-Rakki
   - address: "514 W 25th "
     performers:
       - time: "5:30-6:20pm "
