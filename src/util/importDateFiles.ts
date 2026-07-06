@@ -14,6 +14,7 @@ interface IPerformerInfo {
   name: string;
   link: string;
   time: string;
+  venmo_link?: string;
 }
 
 interface PorchInfo {

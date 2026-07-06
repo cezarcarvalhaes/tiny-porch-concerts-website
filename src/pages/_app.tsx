@@ -1,13 +1,13 @@
-import '../style/globals.css';
 import { ChakraProvider } from '@chakra-ui/react';
+import type { NextPage } from 'next';
+import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import Script from 'next/script';
-import type { AppProps } from 'next/app';
-import type { NextPage } from 'next';
 import type { ReactElement, ReactNode } from 'react';
+import '../style/globals.css';
 
-import theme from '../theme';
 import BaseLayout from '../layouts/BaseLayout';
+import theme from '../theme';
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
   getLayout?: (page: ReactElement) => ReactNode;
