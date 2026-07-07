@@ -17,22 +17,28 @@ porches:
       - time: 4:00-4:50
         name: "Elle Christine "
         link: https://www.youtube.com/@ellechristinemusic
+        venmo_link: https://account.venmo.com/u/ellechristinemusic
       - time: 5:00-5:50
         name: Blueberry Jam
         link: https://www.youtube.com/@seancastleberrymusic7769
+        venmo_link: https://account.venmo.com/u/@Sean-Castleberry
   - address: "218 W 30th "
     performers:
       - time: "4:30-5:20pm "
         name: "Colin & Caroline "
         link: https://www.colinandcaroline.com/
+        venmo_link: https://account.venmo.com/u/Caroline_Healy
       - time: "5:30-6:20pm "
         name: "Hot Lava "
         link: https://hotlavademos.bandcamp.com/album/queen-of-fools
+        venmo_link: https://account.venmo.com/u/allie_app
   - address: "304 W 29th "
     performers:
       - time: "5:00-5:50pm "
         name: ""
         link: ""
+        venmo_link: https://account.venmo.com/u/
       - time: "6:00-6:50pm "
         name: The Boulevardiers
         link: https://www.facebook.com/BoulevardiersRVA/
+        venmo_link: https://account.venmo.com/u/Robert-Breland-6
