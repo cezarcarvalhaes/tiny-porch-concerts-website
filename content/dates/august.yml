@@ -17,22 +17,28 @@ porches:
       - time: 5:00-5:50
         name: "Jack Jones "
         link: https://www.youtube.com/@jackjones9760
+        venmo_link: https://account.venmo.com/u/Jack-Jones-110
       - time: 6:00-6:50
         name: "Maddy Curtis Quartet "
         link: https://youtu.be/cbMI82LyMWQ?si=uCioZUMapRsEE3R_
+        venmo_link: https://account.venmo.com/u/Madeleine-Curtis-1
   - address: 3003 Stonewall
     performers:
       - time: 5:30-6:20
         name: "Woody Woodworth "
         link: https://www.woodywoodworth.com/epk
+        venmo_link: https://account.venmo.com/u/woodywoodworth
       - time: 6:30-7:20
         name: HOTPANTS
         link: https://www.hotpantsband.com/
+        venmo_link: https://account.venmo.com/u/mackenzie-roark
   - address: 606 W 32nd
     performers:
       - time: 6:00-6:50pm
         name: Brandywine Cut
         link: https://soundcloud.com/brandywine-cut
+        venmo_link: https://account.venmo.com/u/brandywinecutband
       - time: 7:00-7:50pm
         name: Weekend Plans
         link: https://open.spotify.com/album/7uJuyDFzFoDxxPFudHOChG?si=Q0jLf69PRLGrtvt1hnZ4QQ
+        venmo_link: https://account.venmo.com/u/Weekendplansmusic
