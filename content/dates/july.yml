@@ -17,6 +17,7 @@ porches:
       - time: "5:00-5:50pm "
         link: https://www.instagram.com/yongcyrus?igsh=MTdueXBkN3Q5a251NA%3D%3D&utm_source=qr
         name: "Cyrus X "
+        venmo_link: https://account.venmo.com/u/cyrus-yongbanthom
       - time: "6:00-6:50pm "
         name: "Rikki Rakki "
         link: https://rikkirakki.bandcamp.com/album/sing-cicadas
@@ -26,14 +27,18 @@ porches:
       - time: "5:30-6:20pm "
         name: "The Wellbillies "
         link: https://www.facebook.com/share/1GUzZt9ZYL/?mibextid=wwXIfr
+        venmo_link: https://account.venmo.com/u/stephen-hu-3
       - time: "6:30-7:20pm "
         name: "Erin Lunsford "
         link: https://open.spotify.com/artist/6VQmzs195HRiyaBhz9JMlv?si=-F__0UiUQ4abksveGbNt8w
+        venmo_link: https://account.venmo.com/u/erin-lunsford-1
   - address: 611 W 24th
     performers:
       - time: 6:00-6:50pm
         name: " Deb Saidel "
         link: https://www.debsaidel.com/
+        venmo_link: https://account.venmo.com/u/deborah-saidel
       - time: 7:00-7:50pm
         link: https://open.spotify.com/artist/2v0tGL3E8hv9M3i9uiRbDB?si=plOZ-G1-SFCFjdcIFS_74g
         name: Jordan Rein
+        venmo_link: "https://account.venmo.com/u/jordan-reinecke "
