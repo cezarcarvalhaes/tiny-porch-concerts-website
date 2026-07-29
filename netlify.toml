@@ -1,4 +1,5 @@
 [[redirects]]
-  from = "/*"
-  to = "https://porchnight.org/:splat"
-  status = 301
+	from = "https://tinyporchconcerts.org/*"
+	to = "https://porchnight.org/:splat"
+	status = 301
+	force = true
