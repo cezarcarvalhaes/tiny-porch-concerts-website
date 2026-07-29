@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/*"
+  to = "https://porchnight.org/:splat"
+  status = 301
