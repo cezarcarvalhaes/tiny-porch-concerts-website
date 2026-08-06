@@ -7,7 +7,7 @@ title: Get Involved
 
 - - -
 
-### Applications are now closed to host/perform/design/feed Tiny Porch 2026, be sure to apply in 2027!
+### Applications are now closed to host/perform/design/feed Tiny Porch 2026, be sure to apply for Porch Night 2027!
 
 * [Be a Host Porch 2026  ](https://forms.gle/eU2G34o4G9bBgvLbA)
 * [Perform Live 2026  ](https://docs.google.com/forms/d/e/1FAIpQLSfN0lAVKKjA-GGJytI-d94yM3v0F06cZazA3ump8bOzXsanXA/viewform)
