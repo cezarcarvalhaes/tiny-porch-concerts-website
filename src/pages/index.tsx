@@ -30,7 +30,7 @@ function Home({ dates }: { dates: EventInfo[] }) {
 			});
 		}
 	}
-	const title = 'Tiny Porch Concerts | Richmond, VA';
+	const title = 'Porch Night | Richmond, VA';
 	return (
 		<>
 			<Script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />

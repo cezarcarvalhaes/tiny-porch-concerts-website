@@ -56,7 +56,7 @@ function About() {
 						p={4}
 					>
 						<img
-							src='/images/uploads/tiny-porch-guitar-on-house.png'
+							src='/images/uploads/house-guitar-porch-night.png'
 							alt='Porch Guitar'
 							className='my-auto'
 						/>

@@ -25,9 +25,9 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
 		: (
 			<BaseLayout><Component {...pageProps} /></BaseLayout>
 		);
-	const title = 'Tiny Porch Concerts | Richmond, VA';
-	const description = 'Tiny Porch Concerts is a local grassroots concert series hosted in the Woodland Heights Neighborhood of Richmond, VA. Featuring 3 Host Porches, 6 incredible groups of performers, and promising an evening filled with neighborhood camaraderie, this event embodies the spirit of unity and togetherness.';
-	const imageHref = 'https://tinyporchconcerts.org/tinyporchbanner-yellow.png';
+	const title = 'Porch Night | Richmond, VA';
+	const description = 'Porch Night is a local grassroots concert series hosted in the Woodland Heights Neighborhood of Richmond, VA. Featuring 3 Host Porches, 6 incredible groups of performers, and promising an evening filled with neighborhood camaraderie, this event embodies the spirit of unity and togetherness.';
+	const imageHref = 'https://porchnight.org/porchnight-banner-yellow.png';
 	return (
 		<ChakraProvider theme={theme}>
 			<Head>

@@ -25,7 +25,7 @@ function MerchItem(props: MerchItemProps) {
 		image,
 		disabled,
 		link = '',
-		imageAlt = 'Tiny Porch Merchandise',
+		imageAlt = 'Porch Night Merchandise',
 		description = '',
 		index = 0,
 	} = props;

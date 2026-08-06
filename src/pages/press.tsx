@@ -6,9 +6,9 @@ function Press() {
 	return (
 		<>
 			<Head>
-				<title>Press | Tiny Porch Concerts</title>
-				<meta property="og:title" content="Press | Tiny Porch Concerts"/>
-				<meta name="twitter:title" content="Press | Tiny Porch Concerts" />
+				<title>Press | Porch</title>
+				<meta property="og:title" content="Press | Porch Night"/>
+				<meta name="twitter:title" content="Press | Porch Night" />
 			</Head>
 			<Flex
 				background='brand.orange'

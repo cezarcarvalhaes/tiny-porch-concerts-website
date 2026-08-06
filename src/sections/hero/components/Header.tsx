@@ -19,7 +19,7 @@ export default function Hero() {
 				fontSize='7xl'
 				mt={{ base: 4, md: 0 }}
 			>
-				Tiny Porch
+				Porch Night
 			</Heading>
 			<Heading
 				as='h2'

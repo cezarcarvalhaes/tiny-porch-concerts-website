@@ -7,9 +7,9 @@ function Faq({ entries }: { entries: FaqEntry[] }) {
 	return (
 		<>
 			<Head>
-				<title>FAQ | Tiny Porch Concerts</title>
-				<meta property="og:title" content="FAQ | Tiny Porch Concerts"/>
-				<meta name="twitter:title" content="FAQ | Tiny Porch Concerts" />
+				<title>FAQ | Porch Night</title>
+				<meta property="og:title" content="FAQ | Porch Night"/>
+				<meta name="twitter:title" content="FAQ | Porch Night" />
 			</Head>
 			<Flex
 				background='brand.blue'
