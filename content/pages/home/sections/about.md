@@ -1,14 +1,16 @@
 ---
-title: What is Tiny Porch?
+title: What is Porch Night?
 ---
-The Woodland Heights Tiny Porch Concert Series represents a grassroots community effort initiated by a dedicated group of neighbors in spring 2023, and is in no way affiliated with NPR's amazing Tiny Desk concerts -- we're all outside and neighbor run! 
+The Woodland Heights Porch Night (previously known as "Tiny Porch") Concert Series represents a grassroots community effort initiated by a dedicated group of neighbors in spring 2023. 
 
 Held on Sunday evenings, the event revolves around three "host porches," each featuring two sets of musical performances throughout the evening. This deliberate organization ensures that Woodland Heights' residents, whether long-time locals or recent newcomers, can enjoy a relaxed and regular opportunity to explore the charming streets of our wonderful neighborhood. These outdoor Sunday events offer a chance for Woodland Heights residents, as well as those from nearby neighborhoods within walking distance, to come together, share smiles, engage in conversations, and relish in the music of local, diverse Richmond artists.
 
-As the years progress, the Woodland Heights Tiny Porch Concert series will continue to forge connections among new and established neighbors, fostering stronger bonds within the community.
+As the years progress, the Woodland Heights Porch Night Concert Series will continue to forge connections among new and established neighbors, fostering stronger bonds within the community.
 
 Featuring 3 Host Porches, 6 incredible groups of performers, and promising an evening filled with neighborhood camaraderie, this event embodies the spirit of unity and togetherness.
 
 \----
 
 **A quick note before you join us:** *Our concerts are free, volunteer-run neighborhood events held on private porches and yards in Woodland Heights. We love having you here — just come prepared for an outdoor setting, watch your step, and look out for one another. Attendance is at your own risk and we aren't able to assume responsibility for injuries or losses.*
+
+***Porch Night was previously known as Tiny Porch, Woodland Heights just got too big to be "Tiny!"***
