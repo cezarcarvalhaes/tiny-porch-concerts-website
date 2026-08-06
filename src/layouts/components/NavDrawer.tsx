@@ -31,7 +31,7 @@ const NavDrawer: React.FC<NavDrawerProps> = ({ isOpen, onClose }) => (
 					textAlign='center'
 					my={4}
 				>
-              Tiny Porch Concerts
+					Porch Night
 				</DrawerHeader>
 				<DrawerBody>
 					<VStack spacing={4}>

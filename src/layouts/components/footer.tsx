@@ -37,15 +37,15 @@ function Footer() {
 						fontSize='4xl'
 						fontFamily='BobbyJones, sans-serif'
 					>
-          Tiny Porch Concerts
+						Porch Night
 					</Link>
 					<Text>
 						<Icon as={FaEnvelope} />
 						{' '}
 						<Link
-							href='mailto:tinyporchrichmond@gmail.com'
+							href='mailto:porchnightrichmond@gmail.com'
 						>
-            tinyporchrichmond@gmail.com
+							porchnightrichmond@gmail.com
 						</Link>
 					</Text>
 				</Box>
