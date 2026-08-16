@@ -18,10 +18,10 @@ porches:
         name: "Jack Jones "
         link: https://www.youtube.com/@jackjones9760
         venmo_link: https://account.venmo.com/u/Jack-Jones-110
-      - time: 6:00-6:50
-        name: Maddy Curtis Trio
-        link: https://youtu.be/cbMI82LyMWQ?si=uCioZUMapRsEE3R_
-        venmo_link: https://account.venmo.com/u/Madeleine-Curtis-1
+      - time: ""
+        name: ""
+        link: ""
+        venmo_link: ""
   - address: 3003 Stonewall
     performers:
       - time: 5:30-6:20
