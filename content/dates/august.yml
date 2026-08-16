@@ -18,10 +18,10 @@ porches:
         name: "Jack Jones "
         link: https://www.youtube.com/@jackjones9760
         venmo_link: https://account.venmo.com/u/Jack-Jones-110
-      - time: ""
-        name: ""
-        link: ""
-        venmo_link: ""
+      - time: "6:00-6:50pm "
+        name: "Paulo Franco "
+        link: https://peflmusic.com/home
+        venmo_link: https://account.venmo.com/u/peflmusicstore
   - address: 3003 Stonewall
     performers:
       - time: 5:30-6:20
