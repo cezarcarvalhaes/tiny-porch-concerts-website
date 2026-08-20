@@ -45,6 +45,11 @@
       "name": "Flash Color Imaging ",
       "url": "https://flashcolorimaging.com/",
       "image": "/images/uploads/flash-color-imaging.png"
+    },
+    {
+      "name": "Richmond Grid",
+      "url": "https://richmondgrid.com/",
+      "image": "/images/uploads/grid.jpg"
     }
   ]
 }
