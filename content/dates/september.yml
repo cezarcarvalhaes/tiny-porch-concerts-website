@@ -7,9 +7,9 @@ food_vendors:
     name: "Westray's Finest Ice Cream "
     logo: /images/uploads/download.png
     location: W 31st & Porter
-  - name: TBD
-    link: ""
-    logo: ""
+  - name: Cocina Calle
+    link: https://cocinacalle.com/
+    logo: /images/uploads/cc-logo-web.png
     location: "W 31st & Porter "
 porches:
   - address: "112 W 29th "
