@@ -15,6 +15,9 @@ porches:
   - address: 807 W 31st
     performers:
       - time: "4:00-4:50pm "
+        name: The 419
+        link: https://www.instagram.com/the419band/
+        venmo_link: https://www.instagram.com/the419band/
       - time: "5:00-5:50pm "
   - address: 912 W 30th
     performers:
