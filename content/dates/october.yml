@@ -25,8 +25,8 @@ porches:
   - address: 912 W 30th
     performers:
       - time: 4:30-5:20pm
-        name: ""
-        link: ""
+        name: "Counterpoint "
+        link: https://www.facebook.com/counterpointbandrva/
         venmo_link: ""
       - time: 5:30-6:20pm
         name: "Blue Orpheus "
