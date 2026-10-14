@@ -26,6 +26,8 @@ function FoodVendors({ vendors = [] }: { vendors: FoodVendorInfo[] }) {
 				flexWrap='wrap'
 				justifyContent='center'
 				alignItems='center'
+				backgroundColor='brand.orange'
+				borderRadius={12}
 			>
 				{vendors.map((vendor) => (
 					<VendorInfo

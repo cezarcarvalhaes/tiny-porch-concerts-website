@@ -16,12 +16,10 @@ function VendorInfo({
 		<Flex
 			my={4}
 			mx={{ base: 0, md: 4 }}
-			backgroundColor='brand.orange'
 			p={6}
 			flexDirection='column'
 			justifyContent='center'
 			alignItems='center'
-			borderRadius='full'
 			boxSize='300px'
 			textAlign='center'
 		>
